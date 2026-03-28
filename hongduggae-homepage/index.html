@@ -3,11 +3,68 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>홍두깨수타칼국수 | 공식 홈페이지</title>
+  <title>홍두깨수타칼국수 | SINCE 1973 신사 손칼국수 맛집</title>
+  <meta name="description" content="홍두깨수타칼국수 메인 페이지. 손칼국수, 수타면, 사골·해물·모밀 육수를 중심으로 신사점·신촌점 운영 정보를 안내합니다." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="홍두깨수타칼국수 | SINCE 1973 신사 손칼국수 맛집" />
+  <meta property="og:description" content="50년 전통 수타 손칼국수. 해물·사골·모밀 육수를 매일 직접 끓이고, 홍두깨로 밀어 칼로 써는 정직한 한 그릇. 신사점·신촌점 운영." />
+  <meta property="og:image" content="https://images.pexels.com/photos/20443725/pexels-photo-20443725.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop" />
+  <meta property="og:url" content="https://jwfinancial.co.kr/hongduggae/" />
+  <meta property="og:locale" content="ko_KR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=SUIT:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/site.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "홍두깨수타칼국수",
+    "description": "50년 전통 수타 손칼국수. 해물·사골·모밀 육수를 매일 직접 끓이고 홍두깨로 밀어 칼로 써는 한 그릇.",
+    "servesCuisine": ["Kalguksu", "Korean"],
+    "priceRange": "₩₩",
+    "telephone": "+82-2-511-2611",
+    "url": "https://jwfinancial.co.kr/hongduggae/",
+    "menu": "https://jwfinancial.co.kr/hongduggae/menu.html",
+    "sameAs": [
+      "https://instagram.com/hongduggae_official",
+      "https://blog.naver.com/hongduggae_official"
+    ],
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "11:00", "closes": "20:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday"], "opens": "11:00", "closes": "14:30" }
+    ],
+    "department": [
+      {
+        "@type": "Restaurant",
+        "name": "홍두깨수타칼국수 신사점",
+        "telephone": "+82-2-511-2611",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "강남대로109길 45-16 대성빌딩 1층",
+          "addressLocality": "서초구",
+          "addressRegion": "서울특별시",
+          "addressCountry": "KR"
+        }
+      },
+      {
+        "@type": "Restaurant",
+        "name": "홍두깨칼국수 신촌점",
+        "telephone": "+82-2-711-8889",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "백범로 10",
+          "addressLocality": "마포구",
+          "addressRegion": "서울특별시",
+          "addressCountry": "KR"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="header">
@@ -16,64 +73,86 @@
         <span class="logo-mark">SINCE 1973</span>
         <span class="logo-text">홍두깨수타칼국수</span>
       </a>
-      <nav class="nav">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-label="메뉴 열기">☰</button>
+      <nav class="nav" id="site-nav">
         <a class="nav-link current" href="./index.html">홈</a>
         <a class="nav-link" href="./intro.html">소개</a>
         <a class="nav-link" href="./menu.html">메뉴안내</a>
         <a class="nav-link" href="./stores.html">매장안내</a>
+        <span class="lang-hint">🌐 EN 준비중</span>
         <a class="call-btn" href="tel:02-511-2611">예약/문의 전화</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="page-hero">
-      <div class="container">
-        <div class="hero-shell">
-          <span class="hero-kicker">Handmade Noodle House</span>
-          <h1 class="hero-title">오랜 내공으로 지켜온 손칼국수 한 그릇</h1>
-          <p class="hero-copy">
-            해물, 사골, 모밀 육수는 매일 직접 끓이고, 반죽부터 숙성, 홍두깨 밀기, 손칼국수 썰기까지
-            기본 공정을 타협 없이 지키고 있습니다. 화려함보다 정직한 맛으로 오래 찾게 되는 집이 되겠습니다.
-          </p>
-          <div class="badge-row">
-            <div class="badge">
-              <strong>운영안내</strong>
-              <span>평일 11:00-20:30 / 브레이크 15:00-17:00 / 토 11:00-14:30</span>
-            </div>
-            <div class="badge">
-              <strong>예약·포장</strong>
-              <span>점심 피크 예약 문의 가능 / 비조리 포장 가능 / 공영주차장 안내</span>
-            </div>
-          </div>
-          <div class="cta-row">
-            <a class="btn btn-primary" href="./intro.html">브랜드 소개 보기</a>
-            <a class="btn btn-ghost" href="./menu.html">대표 메뉴 보기</a>
-            <a class="btn btn-ghost" href="./stores.html">매장 안내 보기</a>
-          </div>
+    <section class="hero-full" style="--hero-image:url('https://ldb-phinf.pstatic.net/20190611_300/1560184311157iWu0B_JPEG/XnZZ7JxIzADGqXBChKPGoeIZ.jpeg.jpg');">
+      <div class="container hero-full-inner">
+        <span class="hero-kicker">Handmade Kalguksu House</span>
+        <h1>홍두깨로 밀어 칼로 써는<br />SINCE 1973 손칼국수</h1>
+        <p>손칼국수 · 수타면 · 사골육수 · 해물육수 · 모밀육수까지 매일 직접 준비하는 정직한 한 그릇.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="./menu.html">메뉴 보기</a>
+          <a class="btn btn-dark" href="tel:02-511-2611">전화 예약</a>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section reveal">
       <div class="container">
         <div class="section-head">
-          <p class="section-tag">Core Value</p>
-          <h2 class="section-title">변하지 않는 세 가지 기준</h2>
-          <p class="section-copy">요란한 수식 대신, 오래된 방식의 성실함을 기준으로 매일 같은 품질을 내고 있습니다.</p>
+          <p class="section-tag">Core Keywords</p>
+          <h2 class="section-title">브랜드 핵심 키워드</h2>
+          <p class="section-copy">손칼국수, 수타면, 홍두깨, 사골육수, 해물육수, 모밀을 중심으로 메뉴를 구성합니다.</p>
         </div>
         <div class="grid-3">
           <article class="card card-pad">
-            <h3 class="menu-name">직접 뽑는 육수</h3>
-            <p class="menu-meta">해물, 사골, 모밀 육수를 메뉴 성격에 맞게 분리해 매일 직접 준비합니다.</p>
+            <h3 class="menu-name">손칼국수 · 수타면</h3>
+            <p class="menu-meta">반죽, 숙성, 밀기, 썰기 공정을 손으로 지켜 면의 결과 탄력을 만듭니다.</p>
           </article>
           <article class="card card-pad">
-            <h3 class="menu-name">수타와 손칼</h3>
-            <p class="menu-meta">반죽부터 숙성, 홍두깨 밀기, 칼 썰기까지 손공정을 지켜 면의 결을 완성합니다.</p>
+            <h3 class="menu-name">직접 끓이는 육수</h3>
+            <p class="menu-meta">해물·사골·모밀 육수를 용도별로 분리해 매일 직접 우립니다.</p>
           </article>
           <article class="card card-pad">
-            <h3 class="menu-name">합리적 가격</h3>
-            <p class="menu-meta">강남권 동종 매장 대비 부담을 낮춘 가격으로 꾸준히 찾는 한 끼를 제공합니다.</p>
+            <h3 class="menu-name">오래 가는 한 끼</h3>
+            <p class="menu-meta">꾸준히 찾는 단골 식사가 되도록 맛과 가격의 균형을 유지합니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-tag">Media & Reviews</p>
+          <h2 class="section-title">미디어 & 리뷰</h2>
+        </div>
+        <div class="media-grid">
+          <article class="card card-pad">
+            <div class="badge-row">
+              <span class="review-badge">네이버 플레이스 평점 ★4.4+ (업데이트 예정)</span>
+              <span class="review-badge">리뷰 다수 누적</span>
+              <span class="review-badge">SINCE 1973</span>
+            </div>
+            <div class="review-quote">
+              <p class="menu-meta">“면이 쫄깃하고 국물이 깔끔해서 점심마다 생각납니다.”</p>
+            </div>
+            <div class="review-quote">
+              <p class="menu-meta">“가격 대비 양과 퀄리티가 좋아 가족 식사로 만족스러웠습니다.”</p>
+            </div>
+            <div class="review-quote">
+              <p class="menu-meta">“오래된 집답게 기본이 안정적이고 재방문하기 좋습니다.”</p>
+            </div>
+          </article>
+          <article class="card card-pad">
+            <h3 class="menu-name">수상/인증</h3>
+            <p class="menu-meta">인증/수상 배지는 자료 수집 후 업데이트 예정입니다.</p>
+            <div class="badge-row" style="margin-top:10px;">
+              <span class="review-badge">배지 A (placeholder)</span>
+              <span class="review-badge">배지 B (placeholder)</span>
+              <span class="review-badge">배지 C (placeholder)</span>
+            </div>
           </article>
         </div>
       </div>
@@ -82,8 +161,30 @@
 
   <footer class="footer">
     <div class="container">
-      <p>홍두깨수타칼국수 | 서울특별시 서초구 강남대로109길 45-16 대성빌딩 1층 | 02-511-2611</p>
+      <div class="footer-top">
+        <p>홍두깨수타칼국수 | 서울 서초구 강남대로109길 45-16 | 02-511-2611</p>
+        <div class="social-links">
+          <a class="social-link" href="https://instagram.com/hongduggae_official" target="_blank" rel="noreferrer">Instagram</a>
+          <a class="social-link" href="https://blog.naver.com/hongduggae_official" target="_blank" rel="noreferrer">Naver Blog</a>
+        </div>
+      </div>
+      <div class="biz-meta">
+        <p>상호: 홍두깨수타칼국수 | 대표자: 확인중 | 사업자등록번호: 000-00-00000 (업데이트 예정)</p>
+        <p>통신판매/전자상거래 관련 정보는 사실 확인 후 업데이트 예정입니다.</p>
+      </div>
     </div>
   </footer>
+
+  <div class="reserve-fab">
+    <a class="btn btn-primary" href="tel:02-511-2611">전화 예약</a>
+    <a class="btn btn-ghost" href="https://m.place.naver.com/restaurant/35366297/booking" target="_blank" rel="noreferrer">네이버 예약</a>
+  </div>
+
+  <div class="reserve-bottom">
+    <a class="btn btn-primary" href="tel:02-511-2611">전화 예약</a>
+    <a class="btn btn-ghost" href="https://m.place.naver.com/restaurant/35366297/booking" target="_blank" rel="noreferrer">네이버 예약</a>
+  </div>
+
+  <script src="./assets/site.js"></script>
 </body>
 </html>

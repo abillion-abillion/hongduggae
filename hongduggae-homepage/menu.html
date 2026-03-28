@@ -3,11 +3,53 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>메뉴안내 | 홍두깨수타칼국수</title>
+  <title>메뉴안내 | 홍두깨수타칼국수 신사·신촌 메뉴</title>
+  <meta name="description" content="홍두깨수타칼국수 텍스트 메뉴 및 메뉴판/메뉴사진 아카이브. 칼국수류, 모밀류, 만두류, 사이드, 음료 안내." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="홍두깨수타칼국수 | SINCE 1973 신사 손칼국수 맛집" />
+  <meta property="og:description" content="50년 전통 수타 손칼국수. 해물·사골·모밀 육수를 매일 직접 끓이고, 홍두깨로 밀어 칼로 써는 정직한 한 그릇. 신사점·신촌점 운영." />
+  <meta property="og:image" content="https://images.pexels.com/photos/20443725/pexels-photo-20443725.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop" />
+  <meta property="og:url" content="https://jwfinancial.co.kr/hongduggae/menu.html" />
+  <meta property="og:locale" content="ko_KR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=SUIT:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/site.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "홍두깨수타칼국수",
+    "telephone": "+82-2-511-2611",
+    "url": "https://jwfinancial.co.kr/hongduggae/",
+    "menu": "https://jwfinancial.co.kr/hongduggae/menu.html",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "강남대로109길 45-16 대성빌딩 1층",
+      "addressLocality": "서초구",
+      "addressRegion": "서울특별시",
+      "addressCountry": "KR"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "11:00", "closes": "20:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday"], "opens": "11:00", "closes": "14:30" }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Menu",
+    "name": "홍두깨수타칼국수 메뉴",
+    "hasMenuSection": [
+      { "@type": "MenuSection", "name": "칼국수류", "hasMenuItem": [{ "@type": "MenuItem", "name": "해물칼국수", "offers": { "@type": "Offer", "price": "11000", "priceCurrency": "KRW" } }] },
+      { "@type": "MenuSection", "name": "모밀류", "hasMenuItem": [{ "@type": "MenuItem", "name": "판모밀국수", "offers": { "@type": "Offer", "price": "13000", "priceCurrency": "KRW" } }] }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="header">
@@ -16,139 +58,183 @@
         <span class="logo-mark">SINCE 1973</span>
         <span class="logo-text">홍두깨수타칼국수</span>
       </a>
-      <nav class="nav">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-label="메뉴 열기">☰</button>
+      <nav class="nav" id="site-nav">
         <a class="nav-link" href="./index.html">홈</a>
         <a class="nav-link" href="./intro.html">소개</a>
         <a class="nav-link current" href="./menu.html">메뉴안내</a>
         <a class="nav-link" href="./stores.html">매장안내</a>
+        <span class="lang-hint">🌐 EN 준비중</span>
         <a class="call-btn" href="tel:02-511-2611">예약/문의 전화</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="page-hero">
+    <section class="page-hero reveal">
       <div class="container">
         <div class="hero-shell">
-          <span class="hero-kicker">Menu Archive</span>
+          <span class="hero-kicker">Text Menu + Photo Archive</span>
           <h1 class="hero-title">메뉴안내</h1>
-          <p class="hero-copy">
-            메뉴판 사진과 실제 메뉴사진을 분리해 정리했습니다.
-            신사점과 신촌점에서 확인 가능한 이미지를 한곳에 모아 비교해 보실 수 있습니다.
-          </p>
+          <p class="hero-copy">텍스트 메뉴를 먼저 확인한 뒤, 메뉴판 사진과 메뉴 사진 아카이브를 보실 수 있도록 구성했습니다.</p>
           <div class="cta-row">
             <a class="btn btn-primary" href="https://m.place.naver.com/restaurant/35366297/home" target="_blank" rel="noreferrer">신사점 네이버 플레이스</a>
-            <a class="btn btn-ghost" href="./stores.html">매장안내 보기</a>
+            <a class="btn btn-ghost" href="https://booking.naver.com/booking/6/bizes/35366297" target="_blank" rel="noreferrer">네이버 예약</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section reveal">
       <div class="container">
         <div class="section-head">
-          <p class="section-tag">Menu Board</p>
+          <p class="section-tag">Text Menu</p>
+          <h2 class="section-title">텍스트 메뉴</h2>
+          <p class="section-copy">아래 가격은 공개 메뉴판/메뉴 정보에서 읽을 수 있는 범위로 정리했습니다.</p>
+        </div>
+        <div class="text-menu-wrap">
+          <table class="text-menu-table">
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Menu (KR / EN)</th>
+                <th>설명</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>칼국수류</td><td><strong>해물칼국수 / Seafood Kalguksu</strong></td><td>해물 육수 기반 대표 칼국수</td><td>11,000원</td></tr>
+              <tr><td>칼국수류</td><td><strong>사골칼국수 / Beef Bone Broth Kalguksu</strong></td><td>사골육수의 깊은 맛</td><td>11,000원</td></tr>
+              <tr><td>칼국수류</td><td><strong>얼큰칼국수 / Spicy Kalguksu</strong></td><td>칼칼한 국물의 변주 메뉴</td><td>11,000원</td></tr>
+              <tr><td>칼국수류</td><td><strong>칼만두국 / Kalguksu Dumpling Soup</strong></td><td>면과 만두를 함께 즐기는 한 그릇</td><td>11,000원</td></tr>
+
+              <tr><td>모밀류</td><td><strong>판모밀국수(여름) / Cold Soba</strong></td><td>시원한 모밀 육수와 함께 제공</td><td>13,000원</td></tr>
+              <tr><td>모밀류</td><td><strong>모밀콩국수(여름) / Soba Soybean Noodle</strong></td><td>콩국수와 모밀을 결합한 계절 메뉴</td><td>15,000원</td></tr>
+              <tr><td>모밀류</td><td><strong>맷돌콩국수(여름) / Stone-Milled Soy Noodle</strong></td><td>진한 콩국 베이스 여름 메뉴</td><td>14,000원</td></tr>
+
+              <tr><td>만두류</td><td><strong>접시만두 / Steamed Dumplings</strong></td><td>칼국수와 잘 어울리는 기본 만두</td><td>9,000원</td></tr>
+              <tr><td>만두류</td><td><strong>만두국 / Dumpling Soup</strong></td><td>만두 중심의 국물 메뉴</td><td>11,000원</td></tr>
+              <tr><td>만두류</td><td><strong>떡만두국 / Rice Cake Dumpling Soup</strong></td><td>떡과 만두를 함께 담은 국물 메뉴</td><td>11,000원</td></tr>
+
+              <tr><td>사이드</td><td><strong>해물파전 / Seafood Scallion Pancake</strong></td><td>바삭한 식감의 대표 사이드</td><td>25,000원</td></tr>
+              <tr><td>사이드</td><td><strong>비빔만두 / Spicy Mixed Dumplings</strong></td><td>새콤매콤 양념과 만두 조합</td><td>20,000원</td></tr>
+              <tr><td>사이드</td><td><strong>보쌈(중/대) / Bossam (M/L)</strong></td><td>모임용 인기 메뉴</td><td>45,000원 / 50,000원</td></tr>
+
+              <tr><td>음료</td><td><strong>음료류 / Beverages</strong></td><td>음료/주류는 매장 재고에 따라 변동</td><td>매장 문의</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="source-note">실제 가격은 매장 방문 시 확인해주세요.</p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-tag">Menu Board Photos</p>
           <h2 class="section-title">메뉴판 사진</h2>
-          <p class="section-copy">기존 해물칼국수 카드에 잘못 들어가 있던 메뉴판 이미지를 별도 섹션으로 분리했습니다.</p>
         </div>
         <div class="menu-grid">
-          <article class="menu-card">
-            <img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20250812_297/1754979272641cbBml_JPEG/20250812_151040.jpg" alt="신사점 메뉴판 사진" />
-            <div class="menu-body">
-              <h3 class="menu-name">신사점 메뉴판</h3>
-              <p class="menu-meta">네이버 플레이스 기준 메뉴판 이미지</p>
-            </div>
-          </article>
-          <article class="menu-card">
-            <img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20190408213221_menu1_e0419d9ef174.webp" alt="신촌점 메뉴판 사진 1" />
-            <div class="menu-body">
-              <h3 class="menu-name">신촌점 메뉴판 1</h3>
-              <p class="menu-meta">공개 매장 정보 기준 메뉴판 이미지</p>
-            </div>
-          </article>
-          <article class="menu-card">
-            <img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20201107023118_menu1_49cacd37483c.webp" alt="신촌점 메뉴판 사진 2" />
-            <div class="menu-body">
-              <h3 class="menu-name">신촌점 메뉴판 2</h3>
-              <p class="menu-meta">공개 매장 정보 기준 메뉴판 이미지</p>
-            </div>
-          </article>
-          <article class="menu-card">
-            <img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20201107023118_menu2_49cacd37483c.webp" alt="신촌점 메뉴판 사진 3" />
-            <div class="menu-body">
-              <h3 class="menu-name">신촌점 메뉴판 3</h3>
-              <p class="menu-meta">공개 매장 정보 기준 메뉴판 이미지</p>
-            </div>
-          </article>
-          <article class="menu-card">
-            <img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20240620024645_menu1_47678b1a26c8.webp" alt="신촌점 메뉴판 사진 4" />
-            <div class="menu-body">
-              <h3 class="menu-name">신촌점 메뉴판 4</h3>
-              <p class="menu-meta">공개 매장 정보 기준 메뉴판 이미지</p>
-            </div>
-          </article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20250812_297/1754979272641cbBml_JPEG/20250812_151040.jpg" alt="신사점 메뉴판 사진" /><div class="menu-body"><h3 class="menu-name">신사점 메뉴판</h3></div></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20190408213221_menu1_e0419d9ef174.webp" alt="신촌점 메뉴판 사진 1" /><div class="menu-body"><h3 class="menu-name">신촌점 메뉴판 1</h3></div></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20201107023118_menu1_49cacd37483c.webp" alt="신촌점 메뉴판 사진 2" /><div class="menu-body"><h3 class="menu-name">신촌점 메뉴판 2</h3></div></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20201107023118_menu2_49cacd37483c.webp" alt="신촌점 메뉴판 사진 3" /><div class="menu-body"><h3 class="menu-name">신촌점 메뉴판 3</h3></div></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20240620024645_menu1_47678b1a26c8.webp" alt="신촌점 메뉴판 사진 4" /><div class="menu-body"><h3 class="menu-name">신촌점 메뉴판 4</h3></div></article>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section reveal">
       <div class="container">
         <div class="section-head">
           <p class="section-tag">Menu Photos</p>
-          <h2 class="section-title">메뉴사진</h2>
-          <p class="section-copy">신사점·신촌점에서 수집 가능한 메뉴/매장 이미지를 모두 모았습니다.</p>
+          <h2 class="section-title">메뉴사진 아카이브</h2>
+          <p class="section-copy">신사점/신촌점에서 가져올 수 있는 공개 이미지를 모았습니다.</p>
         </div>
 
-        <h3 class="menu-name" style="margin-bottom: 10px;">신사점 수집 사진</h3>
+        <h3 class="menu-name" style="margin-bottom: 10px;">신사점 이미지</h3>
         <div class="menu-grid">
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20250812_200/17549792791354UK9X_JPEG/20250812_151112.jpg" alt="신사점 사진 1" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_300/1560184311157iWu0B_JPEG/XnZZ7JxIzADGqXBChKPGoeIZ.jpeg.jpg" alt="신사점 사진 2" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_172/1560184326592m71hv_JPEG/wURmVIZD4dswtL_ooBSOQxay.jpeg.jpg" alt="신사점 사진 3" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_145/15601844529805W0Sa_JPEG/aa7FvDObTEAIeOybNTIbZqkp.jpeg.jpg" alt="신사점 사진 4" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_43/1560184254796Yv2uk_JPEG/9kTVHW84OA4W4bK3xlOqQ6ZA.jpeg.jpg" alt="신사점 사진 5" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_146/15601842122345vfNw_JPEG/I1IZdmoyY7a-c1Woghe8DBIt.jpeg.jpg" alt="신사점 사진 6" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_32/1560184434498dRsXR_JPEG/Rr4jIUvABUxjb6tp5k5Sr46z.jpeg.jpg" alt="신사점 사진 7" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_100/1560184413957x0oPa_JPEG/W3yR6thHMsvo0LqmYXWpwK-R.jpeg.jpg" alt="신사점 사진 8" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_67/1560184352997wcH2R_JPEG/wNYcTuxim3gyly14GFUvmm4h.jpeg.jpg" alt="신사점 사진 9" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_63/1560184704986K0e7w_JPEG/uVY7G2dcDR4EoyqJiDek_H3u.jpeg.jpg" alt="신사점 사진 10" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20221111_238/1668169446781n7I05_JPEG/20221111_095115.jpg" alt="신사점 사진 11" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_147/1560184499225WCRxV_JPEG/WuXChGFcGcB5l1FdxenRrtb2.jpeg.jpg" alt="신사점 사진 12" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_16/1560184897154q2sED_JPEG/mnyuD-RJvUIskvpUprnYoUK4.jpeg.jpg" alt="신사점 사진 13" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_259/1560184163606fPz2F_JPEG/xw9aWNA5z-T-2Ea4X8naYTnW.jpeg.jpg" alt="신사점 사진 14" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_286/1560184235669aezUV_JPEG/wJbZrvx1l6uPXB8v8Z7BU4ya.jpeg.jpg" alt="신사점 사진 15" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_34/1560184196608NeGsP_JPEG/wIvO6eK0H6_PrJuOr4yfTFSg.jpeg.jpg" alt="신사점 사진 16" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_92/1560184377630bh9ff_JPEG/jz9E6Tkf58a9-mjs-dVEVygW.jpeg.jpg" alt="신사점 사진 17" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190928_110/1569658114298qbYCF_JPEG/s-DjDKurzn3aJV368em8hPUh.jpg" alt="신사점 사진 18" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20200724_287/1595573743125O4q5P_JPEG/qWWTMefgLknJmilZv2gBUV_f.jpg" alt="신사점 사진 19" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20220126_100/1643207557865EKMep_JPEG/Screenshot_20220126-232958_Naver_Map.jpg" alt="신사점 사진 20" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20220126_74/1643207547878330ua_JPEG/Screenshot_20220126-233015_Naver_Map.jpg" alt="신사점 사진 21" /><div class="menu-body"><p class="menu-meta">신사점 사진</p></div></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20250812_200/17549792791354UK9X_JPEG/20250812_151112.jpg" alt="신사점 사진 1" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_300/1560184311157iWu0B_JPEG/XnZZ7JxIzADGqXBChKPGoeIZ.jpeg.jpg" alt="신사점 사진 2" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_172/1560184326592m71hv_JPEG/wURmVIZD4dswtL_ooBSOQxay.jpeg.jpg" alt="신사점 사진 3" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_145/15601844529805W0Sa_JPEG/aa7FvDObTEAIeOybNTIbZqkp.jpeg.jpg" alt="신사점 사진 4" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_43/1560184254796Yv2uk_JPEG/9kTVHW84OA4W4bK3xlOqQ6ZA.jpeg.jpg" alt="신사점 사진 5" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_146/15601842122345vfNw_JPEG/I1IZdmoyY7a-c1Woghe8DBIt.jpeg.jpg" alt="신사점 사진 6" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_32/1560184434498dRsXR_JPEG/Rr4jIUvABUxjb6tp5k5Sr46z.jpeg.jpg" alt="신사점 사진 7" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_100/1560184413957x0oPa_JPEG/W3yR6thHMsvo0LqmYXWpwK-R.jpeg.jpg" alt="신사점 사진 8" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_67/1560184352997wcH2R_JPEG/wNYcTuxim3gyly14GFUvmm4h.jpeg.jpg" alt="신사점 사진 9" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_63/1560184704986K0e7w_JPEG/uVY7G2dcDR4EoyqJiDek_H3u.jpeg.jpg" alt="신사점 사진 10" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_286/1560184235669aezUV_JPEG/wJbZrvx1l6uPXB8v8Z7BU4ya.jpeg.jpg" alt="신사점 사진 11" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_259/1560184163606fPz2F_JPEG/xw9aWNA5z-T-2Ea4X8naYTnW.jpeg.jpg" alt="신사점 사진 12" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_16/1560184897154q2sED_JPEG/mnyuD-RJvUIskvpUprnYoUK4.jpeg.jpg" alt="신사점 사진 13" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_34/1560184196608NeGsP_JPEG/wIvO6eK0H6_PrJuOr4yfTFSg.jpeg.jpg" alt="신사점 사진 14" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_92/1560184377630bh9ff_JPEG/jz9E6Tkf58a9-mjs-dVEVygW.jpeg.jpg" alt="신사점 사진 15" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190611_147/1560184499225WCRxV_JPEG/WuXChGFcGcB5l1FdxenRrtb2.jpeg.jpg" alt="신사점 사진 16" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20190928_110/1569658114298qbYCF_JPEG/s-DjDKurzn3aJV368em8hPUh.jpg" alt="신사점 사진 17" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20200724_287/1595573743125O4q5P_JPEG/qWWTMefgLknJmilZv2gBUV_f.jpg" alt="신사점 사진 18" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20220126_74/1643207547878330ua_JPEG/Screenshot_20220126-233015_Naver_Map.jpg" alt="신사점 사진 19" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20220126_100/1643207557865EKMep_JPEG/Screenshot_20220126-232958_Naver_Map.jpg" alt="신사점 사진 20" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://ldb-phinf.pstatic.net/20221111_238/1668169446781n7I05_JPEG/20221111_095115.jpg" alt="신사점 사진 21" /></article>
         </div>
 
-        <h3 class="menu-name" style="margin: 28px 0 10px;">신촌점 수집 사진</h3>
+        <h3 class="menu-name" style="margin: 28px 0 10px;">신촌점 이미지</h3>
         <div class="menu-grid">
-          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20190408213217_photo1_e0419d9ef174.webp" alt="신촌점 사진 1" /><div class="menu-body"><p class="menu-meta">신촌점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20190408214451_photo1_ZH3CW0ztFjCZ.webp" alt="신촌점 사진 2" /><div class="menu-body"><p class="menu-meta">신촌점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20201107023114_photo1_49cacd37483c.webp" alt="신촌점 사진 3" /><div class="menu-body"><p class="menu-meta">신촌점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20201107023114_photo2_49cacd37483c.webp" alt="신촌점 사진 4" /><div class="menu-body"><p class="menu-meta">신촌점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20201107023114_photo3_49cacd37483c.webp" alt="신촌점 사진 5" /><div class="menu-body"><p class="menu-meta">신촌점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20210703023541_photo1_1e7a94743023.webp" alt="신촌점 사진 6" /><div class="menu-body"><p class="menu-meta">신촌점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20210703023541_photo2_1e7a94743023.webp" alt="신촌점 사진 7" /><div class="menu-body"><p class="menu-meta">신촌점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20240620024644_photo1_47678b1a26c8.webp" alt="신촌점 사진 8" /><div class="menu-body"><p class="menu-meta">신촌점 사진</p></div></article>
-          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20240620024644_photo2_47678b1a26c8.webp" alt="신촌점 사진 9" /><div class="menu-body"><p class="menu-meta">신촌점 사진</p></div></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20190408213217_photo1_e0419d9ef174.webp" alt="신촌점 사진 1" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20190408214451_photo1_ZH3CW0ztFjCZ.webp" alt="신촌점 사진 2" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20201107023114_photo1_49cacd37483c.webp" alt="신촌점 사진 3" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20201107023114_photo2_49cacd37483c.webp" alt="신촌점 사진 4" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20201107023114_photo3_49cacd37483c.webp" alt="신촌점 사진 5" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20210703023541_photo1_1e7a94743023.webp" alt="신촌점 사진 6" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20210703023541_photo2_1e7a94743023.webp" alt="신촌점 사진 7" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20240620024644_photo1_47678b1a26c8.webp" alt="신촌점 사진 8" /></article>
+          <article class="menu-card"><img class="menu-thumb" src="https://d12zq4w4guyljn.cloudfront.net/20240620024644_photo2_47678b1a26c8.webp" alt="신촌점 사진 9" /></article>
         </div>
 
-        <p class="source-note">
-          사진 출처: 신사점 네이버 플레이스 공개 이미지, 신촌점 공개 매장 정보 페이지 이미지.
-          실제 메뉴와 운영 정보는 방문 시점에 따라 달라질 수 있습니다.
-        </p>
+        <p class="source-note">실제 가격은 매장 방문 시 확인해주세요. 이미지 출처: 네이버 플레이스 공개 이미지 및 공개 매장 정보 이미지.</p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-tag">Takeout Guide</p>
+          <h2 class="section-title">포장 안내</h2>
+        </div>
+        <div class="card card-pad">
+          <p class="menu-meta">포장 가능 메뉴: 칼국수류(비조리), 모밀류(육수 분리), 만두류(일부), 사이드(일부)</p>
+          <p class="menu-meta">주문 방법: 전화 사전 주문(02-511-2611) → 매장 수령</p>
+          <p class="menu-meta">평균 소요 시간: 15~25분 (피크 시간 변동)</p>
+          <p class="menu-meta">배달 서비스: 현재 배달 서비스 미운영</p>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container">
-      <p>홍두깨수타칼국수 메뉴안내 | 서울특별시 서초구 강남대로109길 45-16 대성빌딩 1층 | 02-511-2611</p>
+      <div class="footer-top">
+        <p>홍두깨수타칼국수 메뉴안내 | 신사점 02-511-2611 | 신촌점 02-711-8889</p>
+        <div class="social-links">
+          <a class="social-link" href="https://instagram.com/hongduggae_official" target="_blank" rel="noreferrer">Instagram</a>
+          <a class="social-link" href="https://blog.naver.com/hongduggae_official" target="_blank" rel="noreferrer">Naver Blog</a>
+        </div>
+      </div>
+      <div class="biz-meta">
+        <p>상호: 홍두깨수타칼국수 | 대표자: 확인중 | 사업자등록번호: 000-00-00000 (업데이트 예정)</p>
+      </div>
     </div>
   </footer>
+
+  <div class="reserve-fab">
+    <a class="btn btn-primary" href="tel:02-511-2611">전화 예약</a>
+    <a class="btn btn-ghost" href="https://m.place.naver.com/restaurant/35366297/booking" target="_blank" rel="noreferrer">네이버 예약</a>
+  </div>
+
+  <div class="reserve-bottom">
+    <a class="btn btn-primary" href="tel:02-511-2611">전화 예약</a>
+    <a class="btn btn-ghost" href="https://m.place.naver.com/restaurant/35366297/booking" target="_blank" rel="noreferrer">네이버 예약</a>
+  </div>
+
+  <script src="./assets/site.js"></script>
 </body>
 </html>

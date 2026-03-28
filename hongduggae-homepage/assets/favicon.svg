@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Hongduggae noodle icon">
+  <rect width="64" height="64" rx="12" fill="#f2e4d3" />
+  <path d="M12 38h40" stroke="#8f3f14" stroke-width="4" stroke-linecap="round" />
+  <path d="M18 30c2 6 6 10 14 10s12-4 14-10" fill="none" stroke="#bb5b1f" stroke-width="4" stroke-linecap="round" />
+  <path d="M24 24c0 4 2 6 8 6s8-2 8-6" fill="none" stroke="#bb5b1f" stroke-width="3" stroke-linecap="round" />
+  <circle cx="20" cy="20" r="2" fill="#8f3f14" />
+  <circle cx="44" cy="20" r="2" fill="#8f3f14" />
+</svg>

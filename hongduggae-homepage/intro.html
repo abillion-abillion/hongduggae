@@ -3,11 +3,42 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>소개 | 홍두깨수타칼국수</title>
+  <title>소개 | 홍두깨수타칼국수 브랜드 스토리</title>
+  <meta name="description" content="홍두깨수타칼국수 브랜드 소개, 경영이념, 연혁. 실제 매장 사진 교체 예정 영역과 운영 철학을 확인할 수 있습니다." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="홍두깨수타칼국수 | SINCE 1973 신사 손칼국수 맛집" />
+  <meta property="og:description" content="50년 전통 수타 손칼국수. 해물·사골·모밀 육수를 매일 직접 끓이고, 홍두깨로 밀어 칼로 써는 정직한 한 그릇. 신사점·신촌점 운영." />
+  <meta property="og:image" content="https://images.pexels.com/photos/20443725/pexels-photo-20443725.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop" />
+  <meta property="og:url" content="https://jwfinancial.co.kr/hongduggae/intro.html" />
+  <meta property="og:locale" content="ko_KR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=SUIT:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/site.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "홍두깨수타칼국수",
+    "telephone": "+82-2-511-2611",
+    "url": "https://jwfinancial.co.kr/hongduggae/",
+    "menu": "https://jwfinancial.co.kr/hongduggae/menu.html",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "강남대로109길 45-16 대성빌딩 1층",
+      "addressLocality": "서초구",
+      "addressRegion": "서울특별시",
+      "addressCountry": "KR"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "11:00", "closes": "20:30" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday"], "opens": "11:00", "closes": "14:30" }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="header">
@@ -16,136 +47,109 @@
         <span class="logo-mark">SINCE 1973</span>
         <span class="logo-text">홍두깨수타칼국수</span>
       </a>
-      <nav class="nav">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-label="메뉴 열기">☰</button>
+      <nav class="nav" id="site-nav">
         <a class="nav-link" href="./index.html">홈</a>
         <a class="nav-link current" href="./intro.html">소개</a>
         <a class="nav-link" href="./menu.html">메뉴안내</a>
         <a class="nav-link" href="./stores.html">매장안내</a>
+        <span class="lang-hint">🌐 EN 준비중</span>
         <a class="call-btn" href="tel:02-511-2611">예약/문의 전화</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="page-hero">
+    <section class="page-hero reveal">
       <div class="container">
         <div class="hero-shell">
           <span class="hero-kicker">Brand Story</span>
-          <h1 class="hero-title">시간이 쌓인 손맛, 홍두깨수타칼국수</h1>
+          <h1 class="hero-title">오래된 방식으로 지켜온 한 그릇</h1>
           <p class="hero-copy">
-            유행보다 기본, 속도보다 완성도를 먼저 생각하는 가게입니다.
-            손이 많이 가는 공정을 지키면서도 부담 없이 찾을 수 있는 한 끼를 내기 위해
-            가족이 한자리에서 같은 기준으로 운영하고 있습니다.
+            반죽부터 숙성, 홍두깨 밀기, 칼 썰기, 육수 준비까지 손이 많이 가는 공정을 지키며
+            한 끼의 완성도를 만들고 있습니다. 유행보다 기본을 먼저 생각하는 운영 철학을 소개합니다.
           </p>
-          <div class="cta-row">
-            <a class="btn btn-primary" href="./menu.html">메뉴안내 보기</a>
-            <a class="btn btn-ghost" href="./stores.html">매장안내 보기</a>
-          </div>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section reveal">
       <div class="container">
         <div class="section-head">
-          <p class="section-tag">Brand Intro</p>
+          <p class="section-tag">Intro</p>
           <h2 class="section-title">브랜드 소개</h2>
         </div>
-        <div class="story-intro">
-          <p>
-            아침마다 가장 먼저 육수 냄비부터 올립니다. 그다음 반죽 상태를 확인하고, 숙성된 면을 홍두깨로 밀어 결을 맞춥니다.
-            이렇게 시작한 하루가 점심의 첫 그릇으로 이어집니다. 빠르게 만들어내는 방식보다, 손이 가더라도 맛의 중심을 지키는 쪽을 택해왔습니다.
-          </p>
-          <p>
-            주방 50년의 아버지, 홀 45년의 어머니, 그리고 주방과 홀을 함께 배우며 현장을 맡아온 아들이 같은 기준으로 움직입니다.
-            그래서 홍두깨수타칼국수는 특별한 수식보다, 먹고 나서 다시 떠오르는 한 그릇으로 기억되는 집을 목표로 합니다.
-          </p>
-        </div>
-
         <div class="story-stack">
           <article class="story-item">
-            <img class="story-media" src="https://images.pexels.com/photos/20443725/pexels-photo-20443725.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="큰 솥에 채소를 넣고 육수를 끓이는 장면" />
+            <div class="story-media-wrap">
+              <img class="story-media" src="https://ldb-phinf.pstatic.net/20190611_300/1560184311157iWu0B_JPEG/XnZZ7JxIzADGqXBChKPGoeIZ.jpeg.jpg" alt="네이버 플레이스 임시 사진 1" />
+              <span class="story-media-overlay">실제 사진 교체 예정</span>
+            </div>
             <div class="story-body">
-              <h3>육수는 하루의 첫 공정입니다</h3>
+              <h3>육수는 하루의 시작입니다</h3>
               <p>
-                해물, 사골, 모밀 육수는 한 번에 섞지 않고 용도에 맞게 따로 준비합니다.
-                큰 솥에서 채소와 재료를 충분히 끓여 국물의 중심을 잡고, 농도와 간을 여러 번 확인해 균형을 맞춥니다.
-                한 끼의 인상을 결정하는 힘은 결국 국물의 깊이에서 나온다고 믿고 있습니다.
+                해물육수, 사골육수, 모밀육수는 메뉴 성격에 맞게 분리해 매일 직접 끓입니다.
+                국물의 농도와 간을 반복 확인하면서 한 그릇의 중심을 잡고 있습니다.
               </p>
             </div>
           </article>
 
           <article class="story-item">
-            <img class="story-media" src="https://images.pexels.com/photos/35327909/pexels-photo-35327909.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="큰 홍두깨로 반죽을 밀고 있는 장면" />
+            <div class="story-media-wrap">
+              <img class="story-media" src="https://ldb-phinf.pstatic.net/20190611_286/1560184235669aezUV_JPEG/wJbZrvx1l6uPXB8v8Z7BU4ya.jpeg.jpg" alt="네이버 플레이스 임시 사진 2" />
+              <span class="story-media-overlay">실제 사진 교체 예정</span>
+            </div>
             <div class="story-body">
-              <h3>반죽과 면은 손의 감각으로 완성합니다</h3>
+              <h3>홍두깨로 밀어 수타면을 완성합니다</h3>
               <p>
-                반죽부터 숙성, 홍두깨 밀기, 칼 썰기까지 이어지는 손공정은 이 집의 핵심입니다.
-                밀고 써는 강도와 속도에 따라 면의 결이 달라지기 때문에 공정을 줄이지 않고 그대로 지키고 있습니다.
-                손이 많이 들더라도 수타면 특유의 탄력과 식감을 유지하는 것이 우선입니다.
+                반죽부터 숙성, 밀기, 썰기까지 기계 공정 대신 손의 감각을 우선합니다.
+                시간이 걸려도 수타면의 식감과 결을 지키는 것이 이 집의 기준입니다.
               </p>
             </div>
           </article>
 
           <article class="story-item">
-            <img class="story-media" src="https://images.unsplash.com/photo-1741533911359-943221043128?auto=format&fit=crop&fm=jpg&q=80&w=1600" alt="한국 식당에 손님이 많이 앉아 식사하는 장면" />
+            <div class="story-media-wrap">
+              <img class="story-media" src="https://ldb-phinf.pstatic.net/20221111_238/1668169446781n7I05_JPEG/20221111_095115.jpg" alt="네이버 플레이스 임시 사진 3" />
+              <span class="story-media-overlay">실제 사진 교체 예정</span>
+            </div>
             <div class="story-body">
-              <h3>좋은 한 끼를 합리적인 값으로 냅니다</h3>
+              <h3>좋은 한 끼를 합리적으로 제공합니다</h3>
               <p>
-                재료와 공정은 단단하게 지키면서도, 가격은 일상적으로 찾을 수 있는 수준으로 맞추기 위해 노력해 왔습니다.
-                강남권 칼국수 매장과 비교해 부담을 낮추고, 가족 식사와 직장인 점심 모두 편하게 찾을 수 있는 구성을 유지하고 있습니다.
-                오래 다니는 단골이 쌓이는 이유는 결국 가격과 만족의 균형이라고 생각합니다.
+                공정과 품질은 단단하게 지키면서도, 매일 먹기 부담 없는 가격대를 유지하려고 노력하고 있습니다.
+                오래 찾는 단골이 쌓이는 구조를 만드는 것이 운영의 목표입니다.
               </p>
             </div>
           </article>
         </div>
-
-        <p class="source-note">
-          이미지 출처: Pexels 무료 라이선스 이미지, Unsplash License 이미지
-          (<a href="https://www.pexels.com/photo/vegetables-in-pot-20443725/" target="_blank" rel="noreferrer">1</a>,
-          <a href="https://www.pexels.com/photo/close-up-of-a-person-preparing-dough-with-a-rolling-pin-35327909/" target="_blank" rel="noreferrer">2</a>,
-          <a href="https://unsplash.com/photos/a-nighttime-restaurant-in-seoul-W-x8CMC6BPU" target="_blank" rel="noreferrer">3</a>)
-        </p>
+        <p class="source-note">이미지 출처: 네이버 플레이스 공개 이미지 (임시 적용). 실제 매장 촬영본 확보 후 교체 예정입니다.</p>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section reveal">
       <div class="container">
         <div class="section-head">
           <p class="section-tag">Philosophy</p>
           <h2 class="section-title">경영이념</h2>
-          <p class="section-copy">아래 원칙은 매일의 운영 기준이며, 현장에서 실제로 지키는 방식 그대로 정리했습니다.</p>
         </div>
         <div class="philosophy-stack">
           <article class="philosophy-item">
-            <h3>기본 공정을 우선하는 운영입니다</h3>
-            <p>
-              반죽, 숙성, 밀기, 썰기, 육수 준비 순서를 지키는 것이 저희 운영의 출발점입니다.
-              바쁜 시간대에도 공정을 줄이면 맛이 달라지기 때문에, 손이 더 가더라도 기본 단계를 그대로 유지하고 있습니다.
-              손님께 매번 비슷한 만족을 드리려면 결국 과정이 먼저라는 생각으로 일하고 있습니다.
-            </p>
+            <h3>기본 공정을 끝까지 지키는 운영입니다</h3>
+            <p>반죽, 숙성, 밀기, 썰기, 육수 준비의 순서를 유지하고 있습니다. 바쁜 시간에도 단계가 줄어들면 맛의 밀도가 달라지기 때문에, 속도보다 완성도를 우선하고 있습니다.</p>
           </article>
           <article class="philosophy-item">
-            <h3>가족이 끝까지 책임지는 방식입니다</h3>
-            <p>
-              주방과 홀을 가족이 직접 운영하면 판단 기준이 흔들리지 않습니다.
-              누가 맡아도 같은 맛, 같은 응대를 드리기 위해 역할을 나누되 서로의 영역을 함께 확인하고 있습니다.
-              손님이 느끼는 신뢰는 현장을 끝까지 책임지는 태도에서 나온다고 보고 있습니다.
-            </p>
+            <h3>가족이 직접 책임지는 구조입니다</h3>
+            <p>주방과 홀을 분리하지 않고 함께 관리하고 있습니다. 현장에서 바로 판단하고 바로 수정하는 흐름을 유지하면서, 손님이 체감하는 품질의 편차를 줄이고 있습니다.</p>
           </article>
           <article class="philosophy-item">
-            <h3>과장보다 꾸준함을 선택하는 가게입니다</h3>
-            <p>
-              화려한 표현이나 일시적인 유행보다, 한 달 뒤에도 다시 찾고 싶은 한 끼를 목표로 하고 있습니다.
-              가격을 무리하게 올리기보다, 합리적인 선에서 품질을 지키는 운영을 이어가고 있습니다.
-              오래가는 가게는 결국 매일의 성실함에서 만들어진다고 믿고 있습니다.
-            </p>
+            <h3>과장보다 꾸준함을 선택하는 방향입니다</h3>
+            <p>화려한 연출보다 다시 찾게 되는 한 끼를 목표로 운영하고 있습니다. 가격과 품질의 균형을 오래 유지하는 것이 결국 브랜드 신뢰를 만든다고 보고 있습니다.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section reveal">
       <div class="container">
         <div class="section-head">
           <p class="section-tag">History</p>
@@ -154,19 +158,19 @@
         <div class="card card-pad timeline">
           <div class="timeline-item">
             <p class="timeline-year">1973년</p>
-            <p class="timeline-desc">홍두깨수타칼국수의 시작점입니다. 손반죽과 수타면 중심의 기본 공정을 세우고, 한 그릇의 기준을 직접 다듬기 시작했습니다.</p>
+            <p class="timeline-desc">홍두깨수타칼국수의 기본 공정을 정립하고 운영을 시작했습니다. 손칼국수의 뼈대를 이 시기에 만들었습니다.</p>
           </div>
           <div class="timeline-item">
             <p class="timeline-year">1980년</p>
-            <p class="timeline-desc">해물·사골 육수 체계를 본격적으로 분리해 메뉴의 중심을 안정화했습니다. 가족 운영 체계도 이 시기에 단단히 자리 잡았습니다.</p>
+            <p class="timeline-desc">해물·사골 중심 육수 체계를 안정화하면서 메뉴의 완성도를 높였습니다. 가족 운영의 틀도 이때 자리 잡았습니다.</p>
           </div>
           <div class="timeline-item">
             <p class="timeline-year">2000년</p>
-            <p class="timeline-desc">모밀 육수와 계절 메뉴 구성을 강화해 선택 폭을 넓혔습니다. 기본 메뉴의 완성도를 유지하면서도 운영 폭을 확장한 시기입니다.</p>
+            <p class="timeline-desc">모밀 메뉴와 계절 구성을 보강해 선택 폭을 넓혔습니다. 기본 메뉴 품질을 유지한 채 메뉴 구조를 확장했습니다.</p>
           </div>
           <div class="timeline-item">
             <p class="timeline-year">2020년</p>
-            <p class="timeline-desc">2세대가 주방과 홀 운영에 본격 합류했습니다. 기존 방식은 유지하되 응대와 운영 효율을 보완해 현재 구조를 정착시켰습니다.</p>
+            <p class="timeline-desc">2세대가 운영에 본격 합류해 주방과 홀 체계를 정비했습니다. 전통 공정은 유지하고 운영 효율은 강화했습니다.</p>
           </div>
         </div>
       </div>
@@ -175,8 +179,29 @@
 
   <footer class="footer">
     <div class="container">
-      <p>홍두깨수타칼국수 소개 페이지 | 서울특별시 서초구 강남대로109길 45-16 대성빌딩 1층 | 02-511-2611</p>
+      <div class="footer-top">
+        <p>홍두깨수타칼국수 소개 | 서울 서초구 강남대로109길 45-16 | 02-511-2611</p>
+        <div class="social-links">
+          <a class="social-link" href="https://instagram.com/hongduggae_official" target="_blank" rel="noreferrer">Instagram</a>
+          <a class="social-link" href="https://blog.naver.com/hongduggae_official" target="_blank" rel="noreferrer">Naver Blog</a>
+        </div>
+      </div>
+      <div class="biz-meta">
+        <p>상호: 홍두깨수타칼국수 | 대표자: 확인중 | 사업자등록번호: 000-00-00000 (업데이트 예정)</p>
+      </div>
     </div>
   </footer>
+
+  <div class="reserve-fab">
+    <a class="btn btn-primary" href="tel:02-511-2611">전화 예약</a>
+    <a class="btn btn-ghost" href="https://m.place.naver.com/restaurant/35366297/booking" target="_blank" rel="noreferrer">네이버 예약</a>
+  </div>
+
+  <div class="reserve-bottom">
+    <a class="btn btn-primary" href="tel:02-511-2611">전화 예약</a>
+    <a class="btn btn-ghost" href="https://m.place.naver.com/restaurant/35366297/booking" target="_blank" rel="noreferrer">네이버 예약</a>
+  </div>
+
+  <script src="./assets/site.js"></script>
 </body>
 </html>
