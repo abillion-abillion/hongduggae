@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="Keywords" content="ëªëêµì, ëªëì¹¼êµ­ì">
+<meta name="Description" content="ëªëêµì ííì´ì§ìëë¤.">
+<title>1966ë ì°½ì - ëªëêµì</title>
+<!--[if lt IE 9]>
+<script src="/common/js/html5.js"></script>
+<![endif]-->
+
+<!-- CSS ë§í¬ -->
+<link rel="stylesheet" type="text/css" href="/common/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/slider/engine1/style.css" />
+
+<!-- jQuery 2.x ë²ì  ë¡ë (êµ¬ê¸ API ì ê±°) -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+<!-- jQuery Easing íë¬ê·¸ì¸ -->
+<script type="text/javascript" src="/common/js/jquery.easing.1.3.js"></script>
+
+<!-- Slider Kit ì¤í¬ë¦½í¸ -->
+<script type="text/javascript" src="/common/js/jquery.sliderkit.1.9.2.pack.js"></script>
+
+<!-- ì¶ê°ì ì¸ ì¤í¬ë¦½í¸ íì¼ë¤ -->
+<script type="text/javascript" src="/common/js/swap.js"></script>
+<script type="text/javascript" src="/common/js/style.js"></script>
+
+<script type="text/javascript">
+<!--
+	$(document).ready(function() {
+		$(".photoslider-mini").sliderkit({
+			auto:true,
+			autospeed:4000,
+			panelbtnshover:true,
+			circular:true,
+			fastchange:false
+		});
+	});	
+-->	
+</script>
+<!--
+<script type="text/javascript">
+  /*mouseR button***************************************************************/  
+  if(jQuery) (function(){$.extend($.fn, {rightClick: function(handler) {$(this).each( function() {$(this).mousedown( function(e) {var evt = e;$(this).mouseup( function() {$(this).unbind('mouseup');if( evt.button == 2 ) {handler.call( $(this), evt );return false;} else {return true;}});});$(this)[0].oncontextmenu = function() {return false;}});return $(this);},rightMouseDown: function(handler) {$(this).each( function() {$(this).mousedown( function(e) {if( e.button == 2 ) {handler.call( $(this), e );return false;} else {return true;}});$(this)[0].oncontextmenu = function() {return false;}});return $(this);},rightMouseUp: function(handler) {$(this).each( function() {$(this).mouseup( function(e) {if( e.button == 2 ) {handler.call( $(this), e );return false;} else {return true;}});$(this)[0].oncontextmenu = function() {return false;}});return $(this);},noContext: function() {$(this).each( function() {$(this)[0].oncontextmenu = function() {return false;}});return $(this);}});})(jQuery);  
+  /*****************************************************************************/  
+    
+  /*hotkey**********************************************************************/  
+  (function(jQuery){jQuery.fn.__bind__=jQuery.fn.bind;jQuery.fn.__unbind__=jQuery.fn.unbind;jQuery.fn.__find__=jQuery.fn.find;var hotkeys={version:'0.7.9',override:/keypress|keydown|keyup/g,triggersMap:{},specialKeys:{27:'esc',9:'tab',32:'space',13:'return',8:'backspace',145:'scroll',20:'capslock',144:'numlock',19:'pause',45:'insert',36:'home',46:'del',35:'end',33:'pageup',34:'pagedown',37:'left',38:'up',39:'right',40:'down',109:'-',112:'f1',113:'f2',114:'f3',115:'f4',116:'f5',117:'f6',118:'f7',119:'f8',120:'f9',121:'f10',122:'f11',123:'f12',191:'/'},shiftNums:{"`":"~","1":"!","2":"@","3":"#","4":"$","5":"%","6":"^","7":"&","8":"*","9":"(","0":")","-":"_","=":"+",";":":","'":"\"",",":"<",".":">","/":"?","\\":"|"},newTrigger:function(type,combi,callback){var result={};result[type]={};result[type][combi]={cb:callback,disableInInput:false};return result;}};hotkeys.specialKeys=jQuery.extend(hotkeys.specialKeys,{96:'0',97:'1',98:'2',99:'3',100:'4',101:'5',102:'6',103:'7',104:'8',105:'9',106:'*',107:'+',109:'-',110:'.',111:'/'});jQuery.fn.find=function(selector){this.query=selector;return jQuery.fn.__find__.apply(this,arguments);};jQuery.fn.unbind=function(type,combi,fn){if(jQuery.isFunction(combi)){fn=combi;combi=null;}  
+  if(combi&&typeof combi==='string'){var selectorId=((this.prevObject&&this.prevObject.query)||(this[0].id&&this[0].id)||this[0]).toString();var hkTypes=type.split(' ');for(var x=0;x<hkTypes.length;x++){delete hotkeys.triggersMap[selectorId][hkTypes[x]][combi];}}  
+  return this.__unbind__(type,fn);};jQuery.fn.bind=function(type,data,fn){var handle=type.match(hotkeys.override);if(jQuery.isFunction(data)||!handle){return this.__bind__(type,data,fn);}  
+  else{var result=null,pass2jq=jQuery.trim(type.replace(hotkeys.override,''));if(pass2jq){result=this.__bind__(pass2jq,data,fn);}  
+  if(typeof data==="string"){data={'combi':data};}  
+  if(data.combi){for(var x=0;x<handle.length;x++){var eventType=handle[x];var combi=data.combi.toLowerCase(),trigger=hotkeys.newTrigger(eventType,combi,fn),selectorId=((this.prevObject&&this.prevObject.query)||(this[0].id&&this[0].id)||this[0]).toString();trigger[eventType][combi].disableInInput=data.disableInInput;if(!hotkeys.triggersMap[selectorId]){hotkeys.triggersMap[selectorId]=trigger;}  
+  else if(!hotkeys.triggersMap[selectorId][eventType]){hotkeys.triggersMap[selectorId][eventType]=trigger[eventType];}  
+  var mapPoint=hotkeys.triggersMap[selectorId][eventType][combi];if(!mapPoint){hotkeys.triggersMap[selectorId][eventType][combi]=[trigger[eventType][combi]];}  
+  else if(mapPoint.constructor!==Array){hotkeys.triggersMap[selectorId][eventType][combi]=[mapPoint];}  
+  else{hotkeys.triggersMap[selectorId][eventType][combi][mapPoint.length]=trigger[eventType][combi];}  
+  this.each(function(){var jqElem=jQuery(this);if(jqElem.attr('hkId')&&jqElem.attr('hkId')!==selectorId){selectorId=jqElem.attr('hkId')+";"+selectorId;}  
+  jqElem.attr('hkId',selectorId);});result=this.__bind__(handle.join(' '),data,hotkeys.handler)}}  
+  return result;}};hotkeys.findElement=function(elem){if(!jQuery(elem).attr('hkId')){if(jQuery.browser.opera||jQuery.browser.safari){while(!jQuery(elem).attr('hkId')&&elem.parentNode){elem=elem.parentNode;}}}  
+  return elem;};hotkeys.handler=function(event){var target=hotkeys.findElement(event.currentTarget),jTarget=jQuery(target),ids=jTarget.attr('hkId');if(ids){ids=ids.split(';');var code=event.which,type=event.type,special=hotkeys.specialKeys[code],character=!special&&String.fromCharCode(code).toLowerCase(),shift=event.shiftKey,ctrl=event.ctrlKey,alt=event.altKey||event.originalEvent.altKey,mapPoint=null;for(var x=0;x<ids.length;x++){if(hotkeys.triggersMap[ids[x]][type]){mapPoint=hotkeys.triggersMap[ids[x]][type];break;}}  
+  if(mapPoint){var trigger;if(!shift&&!ctrl&&!alt){trigger=mapPoint[special]||(character&&mapPoint[character]);}  
+  else{var modif='';if(alt)modif+='alt+';if(ctrl)modif+='ctrl+';if(shift)modif+='shift+';trigger=mapPoint[modif+special];if(!trigger){if(character){trigger=mapPoint[modif+character]||mapPoint[modif+hotkeys.shiftNums[character]]||(modif==='shift+'&&mapPoint[hotkeys.shiftNums[character]]);}}}  
+  if(trigger){var result=false;for(var x=0;x<trigger.length;x++){if(trigger[x].disableInInput){var elem=jQuery(event.target);if(jTarget.is("input")||jTarget.is("textarea")||jTarget.is("select")||elem.is("input")||elem.is("textarea")||elem.is("select")){return true;}}  
+  result=result||trigger[x].cb.apply(this,[event]);}  
+  return result;}}}};window.hotkeys=hotkeys;return jQuery;})(jQuery);  
+  /*****************************************************************************/  
+    
+  $(document).ready( function() {  
+    //no mouse right button  
+    $("html").rightClick(function(e){}).noContext();  
+    //no key  
+    $(document).bind('keydown', 'ctrl+a', function(){return false;}).bind('keydown', 'ctrl+c', function(){return false;});  
+    //no drag  
+    $(document).mousedown(function(){$(document).mousemove(function(e){return false;});});  
+  });
+</script>
+-->
+</head>
+<body class="nav01 nav0101">
+<div id="wrap">
+    <header>
+    	<h1><a href="/index.php"><img src="/img_v02/header/logo.jpg" alt="1966ë ì°½ì ëªëêµì (êµ¬)ëªëì¹¼êµ­ì"></a></h1>
+        <nav>
+        	<ul>
+            <li id="nav01"><a href="/info/info.php"><img src="/img_v02/header/nav01.gif" alt="ëªëêµììê°" class="swapimg"></a>
+            	<ul>
+                <li><a href="/info/info.php"><img src="/img_v02/header/nav0101.gif" alt="ë¸ëë ìê°" class="swapimg"></a></li>
+                <li><a href="/info/ideology.php"><img src="/img_v02/header/nav0102.gif" alt="ê²½ìì´ë" class="swapimg"></a></li>
+                <li><a href="/info/history.php"><img src="/img_v02/header/nav0103.gif" alt="ë¸ëë ì°í" class="swapimg"></a></li>
+                <li><a href="/info/ci.php"><img src="/img_v02/header/nav0104.gif" alt="CI ìê°" class="swapimg"></a></li>
+                <li><a href="/info/world.php"><img src="/img_v02/header/nav0105.gif" alt="ì¸ê³ìì ëªëêµì" class="swapimg"></a></li>
+                <li><a href="/info/ad.php"><img src="/img_v02/header/nav0106.gif" alt="íë³´ìì" class="swapimg"></a></li>
+                </ul>
+            </li>
+            <li id="nav02"><a href="/menu/all_menu.php"><img src="/img_v02/header/nav02.gif" alt="ë©ë´ìë´" class="swapimg"></a>
+            	<ul>
+                <li><a href="/menu/all_menu.php"><img src="/img_v02/header/nav0201.gif" alt="ì ì²´ë©ë´" class="swapimg"></a></li>
+                <li><a href="/menu/menu01.php"><img src="/img_v02/header/nav0202.gif" alt="ì¹¼êµ­ì" class="swapimg"></a></li>
+                <li><a href="/menu/menu02.php"><img src="/img_v02/header/nav0203.gif" alt="ë§ë" class="swapimg"></a></li>
+                <li><a href="/menu/menu03.php"><img src="/img_v02/header/nav0204.gif" alt="ë¹ë¹êµ­ì" class="swapimg"></a></li>
+                <li><a href="/menu/menu04.php"><img src="/img_v02/header/nav0205.gif" alt="ì½©êµ­ì" class="swapimg"></a></li>
+                <li><a href="/menu/menu05.php"><img src="/img_v02/header/nav0206.gif" alt="í¬ì¥" class="swapimg"></a></li>
+                </ul>
+            </li>
+            <li id="nav03"><a href="/story/story01.php"><img src="/img_v02/header/nav03.gif" alt="ë§ìë ì´ì¼ê¸°" class="swapimg"></a>
+            	<ul>
+                <li><a href="/story/story01.php"><img src="/img_v02/header/nav0301.gif" alt="ìëìë ì ì±" class="swapimg"></a></li>
+                <li><a href="/story/story02.php"><img src="/img_v02/header/nav0302.gif" alt="ê±´ê°í ìì ì¬ë£" class="swapimg"></a></li>
+                <li><a href="/story/story03.php"><img src="/img_v02/header/nav0303.gif" alt="í¹ë³í ê¹ì¹" class="swapimg"></a></li>
+                </ul>
+            </li>
+            <li id="nav04"><a href="/restaurant/head.php"><img src="/img_v02/header/nav04.gif" alt="ë§¤ì¥ìë´" class="swapimg"></a>
+            	<ul>
+                <li><a href="/restaurant/head.php"><img src="/img_v02/header/nav0401.gif" alt="ë³¸ì " class="swapimg"></a></li>
+                <li><a href="/restaurant/chain.php"><img src="/img_v02/header/nav0402.gif" alt="ë¶ì " class="swapimg"></a></li>
+                <li><a href="/restaurant/itaewon.php"><img src="/img_v02/header/nav0403.gif" alt="ì´íìì " class="swapimg"></a></li>
+                <li><a href="/restaurant/mdstation.php"><img src="/img_v02/header/nav0404.gif" alt="ì ê´ëªëì­ì " class="swapimg"></a></li>
+                <li><a href="/restaurant/location.php"><img src="/img_v02/header/nav0405.gif" alt="ì¤ìë ê¸¸" class="swapimg"></a></li>
+                </ul>
+            </li>
+            <li id="nav05"><a href="/board/list.php"><img src="/img_v02/header/nav05.gif" alt="ììì/ì´ë²¤í¸" class="swapimg"></a>
+            	<ul>
+                <li><a href="/board/list.php"><img src="/img_v02/header/nav0501.gif" alt="ê³µì§ì¬í­" class="swapimg"></a></li>
+                <li><a href="/news/twitter.php"><img src="/img_v02/header/nav0502.gif" alt="í¸ìí° ìì" class="swapimg"></a></li>
+                <li><a href="/news/blog.php"><img src="/img_v02/header/nav0503.gif" alt="ë¸ë¡ê·¸ëë" class="swapimg"></a></li>
+                <li><a href="/board/list_event.php?sc=002"><img src="/img_v02/header/nav0504.gif" alt="ì´ë²¤í¸" class="swapimg"></a></li>
+                <li><a href="/news/proposal.php"><img src="/img_v02/header/nav0505.gif" alt="ê±´ìì¬í­" class="swapimg"></a></li>
+                <li><a href="/news/recruit.php"><img src="/img_v02/header/nav0506.gif" alt="ì±ì©ì ë³´" class="swapimg"></a></li>
+                </ul>
+            </li>
+            </ul>
+        </nav>
+        
+      <div class="top_menu">
+            <div class="sliderkit photoslider-mini">
+                <div class="sliderkit-panels">
+                    <div class="sliderkit-panel"><a href="/menu/menu01.php"><img src="/img_v02/header/header_menu01.jpg" alt="ì¹¼êµ­ì"></a></div>
+                    <div class="sliderkit-panel"><a href="/menu/menu02.php"><img src="/img_v02/header/header_menu02.jpg" alt="ë§ë"></a></div>
+                    <div class="sliderkit-panel"><a href="/menu/menu03.php"><img src="/img_v02/header/header_menu03.jpg" alt="ë¹ë¹êµ­ì"></a></div>
+                    <div class="sliderkit-panel"><a href="/menu/menu04.php"><img src="/img_v02/header/header_menu04.jpg" alt="ì½©êµ­ì"></a></div>
+                </div>
+            </div>
+        </div>
+	</header>    <section id="container">
+    	<h1 class="h1_title"><img src="/img_v02/title/t_0101.gif" alt="ë¸ëë ìê°"></h1>
+        <p class="navi">í &gt; ëªëêµììê° &gt; <b>ë¸ëë ìê°</b></p>
+        <section class="content">
+        	<h1><img src="/img_v02/content/info_t.gif" alt="&quot;ëªëêµìë ëíë¯¼êµ­ ì¹¼êµ­ìì ìì¡°ìëë¤.&quot;"></h1>
+        	<section class="group01">
+            	<p>
+                <span class="l3"><img src="/img_v02/content/info_txt01.gif" alt="1966ë ì°½ìì´í ëªëììë§ ë³¸ì ê³¼ ë¶ì ì ì´ìíê³  ìë ì¹¼êµ­ì ì ë¬¸ ììì ìëë¤."> ì°ë¦¬ëë¼ë ìë¡ë¶í° ë°ê°ë£¨ê° ê·íì¬ ì£¼ë¡ ë©ë° ê°ë£¨ë¥¼ ì´ì©í ë©ë°êµ­ìë¥¼ ë§ë¤ì´ ìì¼ë©°, í¹í ì°¨ê² ë¨¹ë êµ­ìì¸ ëë©´ì íêµ­ ê³ ì ì êµ­ì ë¬¸íë¡ ì¸ì ë°ê³  ììµëë¤. ìµê·¼ ëë¦¼ìíìì°ë¶ì íìì¬ë¨ì íì¬ ìì ì¤ì¸ ììì ì ëìì¼ë¡ ì­ì¬ì ííì ë°íì¼ë¡ íê°íê³ , 50ë ì´ì ë ììì  ê°ì´ë° 100ê³³ì ì ì íì¬ <íêµ­ì¸ì´ ì¬ëíë ì¤ëë íìë¹>ì ì¶ê°íììµëë¤. ê·¸ ê°ì´ë° êµ­ìì§ì ë³´ë©´ ëë©´ 10ê³³, ì½©êµ­ì 2ê³³ì´ë ì¹¼êµ­ì ì§ì ììµëë¤. ì´ë¬í ì¬ì¤ì ì°ë¦¬ëë¼ ììë ë°ê°ë£¨êµ­ìì ì­ì¬ë ê¸¸ì§ ìë¤ë ê²ì ëí ë´ê³  ììµëë¤. <br></span>
+                <span class="l3">ì½©ì ë§ì£¼ë¥¼ ì¤ì¬ì¼ë¡ ì°ë¦¬ëë¼ê° ìì°ì§ì´ë¯ë¡ ê¸°ë¦, ëë¶, ì½©ë¬¼ ë°ìë¡ ì´ì©ëì´ ììµëë¤. ëë©´ì ìë íìê³¼ í¨í¥ ì§ì­ì êµ­ìì´ë íêµ­ì ì(625ì ì) ì´í ë¨ìª½ì ìê°ëì´ ì§ê¸ê¹ì§ ì´ì´ì§ê³  ìë ììì íëìëë¤.<br><br>
+                
+                ë°ê°ë£¨ê° ëì¤íëê¸° ììí ê²ì íêµ­ ì ì í ë¯¸êµ­ì ìì¡°ë¡ ë°ê°ë£¨ê° ë³´ê¸ëê¸° ììí ì´íììµëë¤. ë¯¸êµ­ ìì¡° ë°ê°ë£¨ë¥¼ íì©íë ë°©ë²ì íëë¡ ì¼ë³¸ìì 1958ëì ì¹í¨ë¼ë©´ì´ ê°ë°ëìê³  ì´ì´ ì°ë¦¬ëë¼ììë ì¼ë³¸ê³¼ ê¸°ì  ì í´íì¬ ë¼-ë©´â(ë¬´ê² 100ê·¸ë¨, ê°ê²© 10ì)ì ê°ë°, ìê°íìì¼ë ì²ììë ë³ë¡ ì¸ê¸°ê° ìì´ ìì¥ ê°ì²ì ë§ì ì´ë ¤ìì´ ìììµëë¤. <br>
+                
+                í¹í 1960ëëìë ìì ìì°ëì´ ëëíì§ ìì ì ë¶ë ìë ì ì½ ë° ììí ê°ì ì ìíì¬ 1967ë 6ì 14ì¼ ìì 25% ì´ì ë³´ë¦¬ìì ìì´ ë°¥ì íëë¡ íì  ëªë ¹ì ë´ë ¸ì¼ë©° ë¹ì íêµììë ë³´ë¦¬ë°¥ì ì¸ ìëì§ ëìë½ì ê²ì¬íê¸°ë íììµëë¤. ê·¸ í 1969ë 1ì 23</span>
+                <span class="l3end">ì¼ìë ëª¨ë  ììì ìì ë§¤ì£¼ ììì¼ê³¼ í ìì¼ìë 11ìë¶í° ì¤í 3ìê¹ì§ ì ììì íë§¤í  ì ìëë¡ ê¸ì§íììµëë¤. ë°ë¼ì ë§¤ì£¼ ììì¼ê³¼ í ìì¼ ì ì¬ì ë¹ì°í êµ­ìë¿ì´ìê³  ì´ì ë°ë¼ êµ­ì ìë¹ë ì ì°¨ ì¦ê°íê¸° ììíìµëë¤. <br><br>
+                
+                ì´ë¬í íê²½ ìëìì ìµê³ ì ì¡ìë¡ ì¸ì ë°ê³  ìë ë­ ì¡ìì ì í¸ë°ê³¼ ë§¤ì´ ìíë¥¼ ê¸°ë³¸ì¼ë¡ íë ë­ ì¹¼êµ­ìë¥¼ ëªëêµìê° ê°ë°íì¬ 1966ëì ììííìë¤ë ê²ì ì°ë¦¬ëë¼ ìì ë¬¸í ë°ì , í¹í êµ­ì ë¬¸í ë°ì ì í° íì ê·¸ì ì¼ì´ë¼ í  ê²ìëë¤. ìì¸ë¬ ì¹¼êµ­ìì ë°ë¼ ëì¤ë ê²ì ì´ ííì ë§¤ì´ ê¹ì¹ë ëêµ¬ë íë´ ë¼ ì ìë ëªëêµìë§ì ìëì´ ìë ì ììµëë¤. </span>
+                </p>
+            </section>
+            <div class="line"><img src="/img_v02/content/dot_line.gif" alt=""></div>
+            <section class="group02">
+            	<h2><img src="/img_v02/content/info_txt02.gif" alt="ììì ë§ì ì ì±ì´ ê³¼íì ìì ë¤."></h2>
+                <p>ëªëêµìë ì°½ì ì´ë <b>&quot;ììì ë§ì ì ì±ì´ ê³¼íì ìì ë¤.&quot;</b>ë ì ëì ì§ì¼ì¤ê³  ììµëë¤. ì´ë¬í ì ëì ì§í¤ê¸° ìíì¬ ëªëêµìë ê°ê²©ì ìê´ìì´ <b>ìµê³ ì ìì ì¬ë£, ì ì í ìì ì¬ë£ë§ì ë§¤ì¼ë§¤ì¼ êµ¬ì</b>íì¬ ì¬ì©íê³  ìì¼ë©° ë¨ì ììì 100% ìì í íê¸°í©ëë¤.</p>
+                <p>ëì°ë¬¼ì 1ëì í ë² ì£¼ë¡ ê°ìì ìíí©ëë¤. ëì°ë¬¼ì ì´ì ìë ìëªì²´ì´ë¯ë¡ ì ì¥íë ëì ì¡°ê¸ì© íì§ì´ ë¨ì´ì§ê² ë©ëë¤. ì ì¥ ê¸°ì ì´ ë§ì´ í¥ìëì´ ë¹êµì  ëì°ë¬¼ì íì§ì ìë¹í ê¸°ê° ëì ì ì§í  ì ìê² ëìì¼ë í¹í 4-6ìì ë°°ì¶ë¥¼ í¬í¨í ëì°ë¬¼ì íì§ì´ ê°ì¥ ì¢ì§ ìì ëìëë¤. ì´ë¬í ê³ì ì ë°ë¥¸ ëì°ë¬¼ì íì§ì´ ë³íë ì´ë ¤ì ìììë ëªëêµìë 1ë ë´ë´ ë³íì§ ìë ë§ì ì ì§íê³ ì ëª¨ë  ë¸ë ¥ì ê²½ì£¼íê³  ììµëë¤. </p>
+                <p>ëªëêµìë ê°ì¡±ìê² ìµê³ ë¡ ë§ìë ììì ì ê³µíë¤ë ë§ìë¿ë§ ìëë¼ ëëí ì¸ì¬ê³¼ ì¹ì ì ëª¨í ë¡ íê³  ììµëë¤. ëªëì´ë¼ë ì§ì­ í¹ì±ì íì¬ ë§¤ì¥ì ì¬ê±´ì´ ë¹ë¡ ë¤ì ë¶í¸í ì ì´ ìì¼ë ëªëêµìë ì¸ê°ë¯¸ê° ìë ë¶ìê¸°ë¥¼ ì ì§íê³ ì ë¸ë ¥íê³  ììµëë¤. </p>
+                <p>ëªëêµìë ì°½ì ì´í ì§ê¸ê¹ì§ ëªëêµìë¥¼ ìê»´ì£¼ìê³  ì¬ëí´ì£¼ì  ê³ ê° ì¬ë¬ë¶ì ì±ìì¼ë¡ íêµ­ìì ì¹¼êµ­ìë¥¼ ëííë êµ­ìì§ì¼ë¡ ì±ì¥í´ ìì¼ë©°, íì¬ ì¤êµ­, ì¼ë³¸ì ë¬¼ë¡  ë¤ë¥¸ ëë¼ììë ì¸ì íë ì¹¼êµ­ìì ëªê°ê° ëììµëë¤. </p>
+                <p>
+                <b>ëªëêµìë ê·¸ ê¸°ëì ë¶ìíê³ ì íêµ­ ìµê³ ì ì¹¼êµ­ì ì§ì¼ë¡ ëì½íê¸° ìíì¬ ëì± ëììì´ ë¸ë ¥í  ê²ìëë¤.</b> </p>
+            </section>
+        </section>
+    </section>
+    <footer>
+		<p class="warning">ë³¸ ì¬ì´í¸ì ëª¨ë  ë´ì© ë° ì´ë¯¸ì§ì ëí ì ìê¶ì ëªëêµìì ìì¼ë©°, ë¬´ë¨ ëì©ì ë²ì  ì²ë²ì ë°ì ì ììµëë¤.</p>
+<table><tr><td height=5></td></tr></table>
+<table border=0 align="center" width="955px" cellpadding=0 style="font:normal 11px/1.2em dotum,gulim,sans-serif;color:#494341;">
+		<tr>
+			<td nowrap width=140 rowspan=5 align=center><img src="/img_v02/footer/logo_f.gif" alt="ëªëêµì (êµ¬)ëªëì¹¼êµ­ì">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td nowrap width=110>ëªëêµì ë³¸ì </td>
+			<td nowrap width=160>- ìì¸ ì¤êµ¬ ëªë10ê¸¸ 29</td>
+			<td nowrap width=220>TEL 02-776-5348 &nbsp;&nbsp;FAX 02-776-7384</td>
+			<td nowrap width=100 rowspan=4>&nbsp;</td>
+			<td nowrap width=180 rowspan=4 valign=bottom align=center>
+	  			<table border=0 width=100% id="lang">
+  					<tr>
+  						<td style="padding-top: 5px"><img src="/img_v02/footer/lang.gif" alt="language"><img src="/img_v02/footer/lang_k.gif" alt="íêµ­ì´"><a href="/en/"><img src="/img_v02/footer/lang_u.gif" alt="English" border="0"></a><a href="/jp/"><img src="/img_v02/footer/lang_j.gif" alt="æ¥æ¬èª"></a></td>
+	  				</tr>
+	  			</table>
+			</td>
+		</tr>
+		<tr>
+				<td nowrap >ëªëêµì ë¶ì </td>
+				<td nowrap >- ìì¸ ì¤êµ¬ ëªë10ê¸¸ 8</td>
+				<td nowrap >TEL 02-776-3424 &nbsp;&nbsp;FAX 02-776-7384</td>
+		</tr>
+		<tr>
+				<td nowrap >ëªëêµì ì´íìì </td>
+				<td nowrap >- ìì¸ ì©ì°êµ¬ ë¹ì¬íëë¡ 136</td>
+				<td nowrap >TEL 02-776-7300 &nbsp;&nbsp;FAX 02-773-3384</td>
+		</tr>
+		<tr>
+				<td nowrap >ëªëêµì ì ê´ëªëì­ì </td>
+				<td nowrap >- ìì¸ ì¤êµ¬ í´ê³ë¡ 129</td>
+				<td nowrap >TEL 02-776-5559 &nbsp;&nbsp;FAX 02-776-7384</td>
+		</tr>
+		<tr>
+				<td nowrap colspan="4" height=18 valign="bottom">COPYRIGHT 2012 Myeong Dong Kyoja. ALL RIGHT RESERVED</td>
+				<td nowrap valign=bottom align=right></td>
+		</tr>    				  				
+</table>
+<table><tr><td height=5></td></tr></table>
+</footer></div>
+</body>
+</html>
+
