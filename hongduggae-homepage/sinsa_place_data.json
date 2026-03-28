@@ -1,0 +1,290 @@
+{
+  "placeName": "ì ì íëê¹¨ ìí ì¹¼êµ­ì",
+  "phone": "02-511-2611",
+  "address": "ìì¸ ìì´êµ¬ ì ìë 9-16",
+  "roadAddress": "ìì¸ ìì´êµ¬ ê°ë¨ëë¡109ê¸¸ 45-16 ëì±ë¹ë© 1ì¸µ",
+  "menus": [
+    {
+      "name": "ë§·ëì½©êµ­ì(ì¬ë¦íì )",
+      "id": "35366297_3"
+    },
+    {
+      "name": "í´ë¬¼íì ",
+      "id": "35366297_4"
+    },
+    {
+      "name": "í´ë¬¼ì¹¼êµ­ì",
+      "id": "35366297_5"
+    },
+    {
+      "name": "ì¬ê³¨ì¹¼êµ­ì",
+      "id": "35366297_6"
+    },
+    {
+      "name": "ì ìë§ë(ì°ë§ë)",
+      "id": "35366297_0"
+    },
+    {
+      "name": "ëª¨ë°ì½©êµ­ì(ì¬ë¦íì )",
+      "id": "35366297_1"
+    },
+    {
+      "name": "íëª¨ë°êµ­ì(ì¬ë¦íì )",
+      "id": "35366297_2"
+    },
+    {
+      "name": "ì¼í°ì¹¼êµ­ì",
+      "id": "35366297_7"
+    },
+    {
+      "name": "ì¹¼ë§ëêµ­",
+      "id": "35366297_8"
+    },
+    {
+      "name": "ëì¥ì°ë",
+      "id": "35366297_9"
+    },
+    {
+      "name": "ë§ëêµ­",
+      "id": "35366297_10"
+    },
+    {
+      "name": "ë¡ë§ëêµ­",
+      "id": "35366297_11"
+    },
+    {
+      "name": "ë¡êµ­",
+      "id": "35366297_12"
+    },
+    {
+      "name": "ë¹ë¹êµ­ì",
+      "id": "35366297_13"
+    },
+    {
+      "name": "ëì¥ì ì¡",
+      "id": "35366297_14"
+    },
+    {
+      "name": "ë¹ë¹ë°¥",
+      "id": "35366297_15"
+    },
+    {
+      "name": "ë§ëì ê³¨(ë)",
+      "id": "35366297_16"
+    },
+    {
+      "name": "ë§ëì ê³¨(ì¤)",
+      "id": "35366297_17"
+    },
+    {
+      "name": "ë³´ì(ë)",
+      "id": "35366297_18"
+    },
+    {
+      "name": "ë³´ì(ì¤)",
+      "id": "35366297_19"
+    },
+    {
+      "name": "ë¹ë¹ë§ë",
+      "id": "35366297_20"
+    }
+  ],
+  "allImages": [
+    "https://ldb-phinf.pstatic.net/20190928_110/1569658114298qbYCF_JPEG/s-DjDKurzn3aJV368em8hPUh.jpg",
+    "https://ldb-phinf.pstatic.net/20200724_287/1595573743125O4q5P_JPEG/qWWTMefgLknJmilZv2gBUV_f.jpg",
+    "https://ldb-phinf.pstatic.net/20220126_74/1643207547878330ua_JPEG/Screenshot_20220126-233015_Naver_Map.jpg",
+    "https://ldb-phinf.pstatic.net/20220126_100/1643207557865EKMep_JPEG/Screenshot_20220126-232958_Naver_Map.jpg",
+    "https://ldb-phinf.pstatic.net/20190611_300/1560184311157iWu0B_JPEG/XnZZ7JxIzADGqXBChKPGoeIZ.jpeg.jpg",
+    "https://ldb-phinf.pstatic.net/20190611_172/1560184326592m71hv_JPEG/wURmVIZD4dswtL_ooBSOQxay.jpeg.jpg",
+    "https://ldb-phinf.pstatic.net/20190611_145/15601844529805W0Sa_JPEG/aa7FvDObTEAIeOybNTIbZqkp.jpeg.jpg",
+    "https://ldb-phinf.pstatic.net/20190611_43/1560184254796Yv2uk_JPEG/9kTVHW84OA4W4bK3xlOqQ6ZA.jpeg.jpg",
+    "https://ldb-phinf.pstatic.net/20190611_146/15601842122345vfNw_JPEG/I1IZdmoyY7a-c1Woghe8DBIt.jpeg.jpg",
+    "https://ldb-phinf.pstatic.net/20190611_32/1560184434498dRsXR_JPEG/Rr4jIUvABUxjb6tp5k5Sr46z.jpeg.jpg",
+    "https://ldb-phinf.pstatic.net/20190611_100/1560184413957x0oPa_JPEG/W3yR6thHMsvo0LqmYXWpwK-R.jpeg.jpg",
+    "https://ldb-phinf.pstatic.net/20190611_67/1560184352997wcH2R_JPEG/wNYcTuxim3gyly14GFUvmm4h.jpeg.jpg",
+    "https://ldb-phinf.pstatic.net/20190611_63/1560184704986K0e7w_JPEG/uVY7G2dcDR4EoyqJiDek_H3u.jpeg.jpg",
+    "https://ldb-phinf.pstatic.net/20190611_286/1560184235669aezUV_JPEG/wJbZrvx1l6uPXB8v8Z7BU4ya.jpeg.jpg",
+    "https://ldb-phinf.pstatic.net/20190611_259/1560184163606fPz2F_JPEG/xw9aWNA5z-T-2Ea4X8naYTnW.jpeg.jpg",
+    "https://ldb-phinf.pstatic.net/20190611_16/1560184897154q2sED_JPEG/mnyuD-RJvUIskvpUprnYoUK4.jpeg.jpg",
+    "https://ldb-phinf.pstatic.net/20190611_34/1560184196608NeGsP_JPEG/wIvO6eK0H6_PrJuOr4yfTFSg.jpeg.jpg",
+    "https://ldb-phinf.pstatic.net/20190611_92/1560184377630bh9ff_JPEG/jz9E6Tkf58a9-mjs-dVEVygW.jpeg.jpg",
+    "https://ldb-phinf.pstatic.net/20190611_147/1560184499225WCRxV_JPEG/WuXChGFcGcB5l1FdxenRrtb2.jpeg.jpg",
+    "https://ldb-phinf.pstatic.net/20221111_238/1668169446781n7I05_JPEG/20221111_095115.jpg"
+  ],
+  "menuImages": [
+    "https://ldb-phinf.pstatic.net/20250812_297/1754979272641cbBml_JPEG/20250812_151040.jpg",
+    "https://ldb-phinf.pstatic.net/20250812_200/17549792791354UK9X_JPEG/20250812_151112.jpg"
+  ],
+  "description": "ìì¼ë¡ ì§ì  ë°ì£½íê³  ì§ì  ì¨ë ì¹¼êµ­ì ì ë¬¸ì ìëë¤.\n\n70ëë ì¬ìëìì íëê¹¨ë¥¼ ì¡ì¼ì  ì¬ì¥ëì 40ë ì´ìì ìí ë´ê³µì´ ì¨ ì¬ë ì ì¹¼êµ­ìë¥¼ ìì  ìê² ì¶ì²í©ëë¤.\n\nì¬ë¦ íì  ë©ë´ë¡ ëª¸ì ì¢ê³  ë§ë ì¢ì ë§·ë ì½©êµ­ì, í ëª¨ë°êµ­ìì ëª¨ë° ì½©êµ­ìë¥¼ ê°ìíë ë§ì´ ì°¾ìì£¼ìê¸¸ ë°ëëë¤.\n\nì ì¬ ìê°ì´ ë°ì ê´ê³ë¡ ê³ ê°ëì ìíí ì´ì©ì ìí´ ìì£¼ë¥ë ì£¼ë¬¸ì´ ë¶ê°ë¥íë ìí´ ë¶íëë¦½ëë¤.\n\nì¬ë£ ìì§ ì ì¡°ê¸° ìì ì¢ë£íë ë°©ë¬¸ ì  ì íë¡ íì¸ ë¶íëë¦½ëë¤.",
+  "hours": [
+    {
+      "__typename": "NewBusinessHour",
+      "name": "ê¸°ë³¸",
+      "businessStatusDescription": {
+        "__typename": "BusinessStatusDescription",
+        "status": "ìì ì¤",
+        "blindDescription": "20ì 0ë¶ì ë¼ì¤í¸ì¤ë",
+        "description": "20:00ì ë¼ì¤í¸ì¤ë",
+        "showEndsNextDay": false
+      },
+      "businessHours": [
+        {
+          "__typename": "WorkingHoursInfo",
+          "day": "ê¸",
+          "businessHours": {
+            "__typename": "StartEndTime",
+            "start": "11:00",
+            "end": "20:30"
+          },
+          "breakHours": [
+            {
+              "__typename": "StartEndTime",
+              "start": "15:00",
+              "end": "17:00"
+            }
+          ],
+          "description": null,
+          "lastOrderTimes": [
+            {
+              "__typename": "LastOrderTimes",
+              "type": "ìììê°",
+              "time": "20:00"
+            }
+          ],
+          "showEndsNextDay": false
+        },
+        {
+          "__typename": "WorkingHoursInfo",
+          "day": "í ",
+          "businessHours": {
+            "__typename": "StartEndTime",
+            "start": "11:00",
+            "end": "14:30"
+          },
+          "breakHours": [],
+          "description": null,
+          "lastOrderTimes": [
+            {
+              "__typename": "LastOrderTimes",
+              "type": "ìììê°",
+              "time": "14:00"
+            }
+          ],
+          "showEndsNextDay": false
+        },
+        {
+          "__typename": "WorkingHoursInfo",
+          "day": "ì¼",
+          "businessHours": null,
+          "breakHours": null,
+          "description": "ì ê¸°í´ë¬´ (ë§¤ì£¼ ì¼ìì¼)",
+          "lastOrderTimes": null,
+          "showEndsNextDay": null
+        },
+        {
+          "__typename": "WorkingHoursInfo",
+          "day": "ì",
+          "businessHours": {
+            "__typename": "StartEndTime",
+            "start": "11:00",
+            "end": "20:30"
+          },
+          "breakHours": [
+            {
+              "__typename": "StartEndTime",
+              "start": "15:00",
+              "end": "17:00"
+            }
+          ],
+          "description": null,
+          "lastOrderTimes": [
+            {
+              "__typename": "LastOrderTimes",
+              "type": "ìììê°",
+              "time": "20:00"
+            }
+          ],
+          "showEndsNextDay": false
+        },
+        {
+          "__typename": "WorkingHoursInfo",
+          "day": "í",
+          "businessHours": {
+            "__typename": "StartEndTime",
+            "start": "11:00",
+            "end": "20:30"
+          },
+          "breakHours": [
+            {
+              "__typename": "StartEndTime",
+              "start": "15:00",
+              "end": "17:00"
+            }
+          ],
+          "description": null,
+          "lastOrderTimes": [
+            {
+              "__typename": "LastOrderTimes",
+              "type": "ìììê°",
+              "time": "20:00"
+            }
+          ],
+          "showEndsNextDay": false
+        },
+        {
+          "__typename": "WorkingHoursInfo",
+          "day": "ì",
+          "businessHours": {
+            "__typename": "StartEndTime",
+            "start": "11:00",
+            "end": "20:30"
+          },
+          "breakHours": [
+            {
+              "__typename": "StartEndTime",
+              "start": "15:00",
+              "end": "17:00"
+            }
+          ],
+          "description": null,
+          "lastOrderTimes": [
+            {
+              "__typename": "LastOrderTimes",
+              "type": "ìììê°",
+              "time": "20:00"
+            }
+          ],
+          "showEndsNextDay": false
+        },
+        {
+          "__typename": "WorkingHoursInfo",
+          "day": "ëª©",
+          "businessHours": {
+            "__typename": "StartEndTime",
+            "start": "11:00",
+            "end": "20:30"
+          },
+          "breakHours": [
+            {
+              "__typename": "StartEndTime",
+              "start": "15:00",
+              "end": "17:00"
+            }
+          ],
+          "description": null,
+          "lastOrderTimes": [
+            {
+              "__typename": "LastOrderTimes",
+              "type": "ìììê°",
+              "time": "20:00"
+            }
+          ],
+          "showEndsNextDay": false
+        }
+      ],
+      "comingIrregularClosedDays": [],
+      "comingRegularClosedDays": "",
+      "freeText": "ë¹ì¼ ì¬ë£ê° ìì§ëë©´ ì¡°ê¸° ììì¢ë£íë ìí´ë°ëëë¤."
+    }
+  ]
+}

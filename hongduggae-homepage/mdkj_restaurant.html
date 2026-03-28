@@ -1,0 +1,291 @@
+﻿ï»¿<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="Keywords" content="ëªëêµì, ëªëì¹¼êµ­ì">
+<meta name="Description" content="ëªëêµì ííì´ì§ìëë¤.">
+<title>1966ë ì°½ì - ëªëêµì</title>
+<!--[if lt IE 9]>
+<script src="/common/js/html5.js"></script>
+<![endif]-->
+
+<!-- CSS ë§í¬ -->
+<link rel="stylesheet" type="text/css" href="/common/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/slider/engine1/style.css" />
+
+<!-- jQuery 2.x ë²ì  ë¡ë (êµ¬ê¸ API ì ê±°) -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+<!-- jQuery Easing íë¬ê·¸ì¸ -->
+<script type="text/javascript" src="/common/js/jquery.easing.1.3.js"></script>
+
+<!-- Slider Kit ì¤í¬ë¦½í¸ -->
+<script type="text/javascript" src="/common/js/jquery.sliderkit.1.9.2.pack.js"></script>
+
+<!-- ì¶ê°ì ì¸ ì¤í¬ë¦½í¸ íì¼ë¤ -->
+<script type="text/javascript" src="/common/js/swap.js"></script>
+<script type="text/javascript" src="/common/js/style.js"></script>
+
+<script type="text/javascript">
+<!--
+	$(document).ready(function() {
+		$(".photoslider-mini").sliderkit({
+			auto:true,
+			autospeed:4000,
+			panelbtnshover:true,
+			circular:true,
+			fastchange:false
+		});
+	});	
+-->	
+</script>
+<!--
+<script type="text/javascript">
+  /*mouseR button***************************************************************/  
+  if(jQuery) (function(){$.extend($.fn, {rightClick: function(handler) {$(this).each( function() {$(this).mousedown( function(e) {var evt = e;$(this).mouseup( function() {$(this).unbind('mouseup');if( evt.button == 2 ) {handler.call( $(this), evt );return false;} else {return true;}});});$(this)[0].oncontextmenu = function() {return false;}});return $(this);},rightMouseDown: function(handler) {$(this).each( function() {$(this).mousedown( function(e) {if( e.button == 2 ) {handler.call( $(this), e );return false;} else {return true;}});$(this)[0].oncontextmenu = function() {return false;}});return $(this);},rightMouseUp: function(handler) {$(this).each( function() {$(this).mouseup( function(e) {if( e.button == 2 ) {handler.call( $(this), e );return false;} else {return true;}});$(this)[0].oncontextmenu = function() {return false;}});return $(this);},noContext: function() {$(this).each( function() {$(this)[0].oncontextmenu = function() {return false;}});return $(this);}});})(jQuery);  
+  /*****************************************************************************/  
+    
+  /*hotkey**********************************************************************/  
+  (function(jQuery){jQuery.fn.__bind__=jQuery.fn.bind;jQuery.fn.__unbind__=jQuery.fn.unbind;jQuery.fn.__find__=jQuery.fn.find;var hotkeys={version:'0.7.9',override:/keypress|keydown|keyup/g,triggersMap:{},specialKeys:{27:'esc',9:'tab',32:'space',13:'return',8:'backspace',145:'scroll',20:'capslock',144:'numlock',19:'pause',45:'insert',36:'home',46:'del',35:'end',33:'pageup',34:'pagedown',37:'left',38:'up',39:'right',40:'down',109:'-',112:'f1',113:'f2',114:'f3',115:'f4',116:'f5',117:'f6',118:'f7',119:'f8',120:'f9',121:'f10',122:'f11',123:'f12',191:'/'},shiftNums:{"`":"~","1":"!","2":"@","3":"#","4":"$","5":"%","6":"^","7":"&","8":"*","9":"(","0":")","-":"_","=":"+",";":":","'":"\"",",":"<",".":">","/":"?","\\":"|"},newTrigger:function(type,combi,callback){var result={};result[type]={};result[type][combi]={cb:callback,disableInInput:false};return result;}};hotkeys.specialKeys=jQuery.extend(hotkeys.specialKeys,{96:'0',97:'1',98:'2',99:'3',100:'4',101:'5',102:'6',103:'7',104:'8',105:'9',106:'*',107:'+',109:'-',110:'.',111:'/'});jQuery.fn.find=function(selector){this.query=selector;return jQuery.fn.__find__.apply(this,arguments);};jQuery.fn.unbind=function(type,combi,fn){if(jQuery.isFunction(combi)){fn=combi;combi=null;}  
+  if(combi&&typeof combi==='string'){var selectorId=((this.prevObject&&this.prevObject.query)||(this[0].id&&this[0].id)||this[0]).toString();var hkTypes=type.split(' ');for(var x=0;x<hkTypes.length;x++){delete hotkeys.triggersMap[selectorId][hkTypes[x]][combi];}}  
+  return this.__unbind__(type,fn);};jQuery.fn.bind=function(type,data,fn){var handle=type.match(hotkeys.override);if(jQuery.isFunction(data)||!handle){return this.__bind__(type,data,fn);}  
+  else{var result=null,pass2jq=jQuery.trim(type.replace(hotkeys.override,''));if(pass2jq){result=this.__bind__(pass2jq,data,fn);}  
+  if(typeof data==="string"){data={'combi':data};}  
+  if(data.combi){for(var x=0;x<handle.length;x++){var eventType=handle[x];var combi=data.combi.toLowerCase(),trigger=hotkeys.newTrigger(eventType,combi,fn),selectorId=((this.prevObject&&this.prevObject.query)||(this[0].id&&this[0].id)||this[0]).toString();trigger[eventType][combi].disableInInput=data.disableInInput;if(!hotkeys.triggersMap[selectorId]){hotkeys.triggersMap[selectorId]=trigger;}  
+  else if(!hotkeys.triggersMap[selectorId][eventType]){hotkeys.triggersMap[selectorId][eventType]=trigger[eventType];}  
+  var mapPoint=hotkeys.triggersMap[selectorId][eventType][combi];if(!mapPoint){hotkeys.triggersMap[selectorId][eventType][combi]=[trigger[eventType][combi]];}  
+  else if(mapPoint.constructor!==Array){hotkeys.triggersMap[selectorId][eventType][combi]=[mapPoint];}  
+  else{hotkeys.triggersMap[selectorId][eventType][combi][mapPoint.length]=trigger[eventType][combi];}  
+  this.each(function(){var jqElem=jQuery(this);if(jqElem.attr('hkId')&&jqElem.attr('hkId')!==selectorId){selectorId=jqElem.attr('hkId')+";"+selectorId;}  
+  jqElem.attr('hkId',selectorId);});result=this.__bind__(handle.join(' '),data,hotkeys.handler)}}  
+  return result;}};hotkeys.findElement=function(elem){if(!jQuery(elem).attr('hkId')){if(jQuery.browser.opera||jQuery.browser.safari){while(!jQuery(elem).attr('hkId')&&elem.parentNode){elem=elem.parentNode;}}}  
+  return elem;};hotkeys.handler=function(event){var target=hotkeys.findElement(event.currentTarget),jTarget=jQuery(target),ids=jTarget.attr('hkId');if(ids){ids=ids.split(';');var code=event.which,type=event.type,special=hotkeys.specialKeys[code],character=!special&&String.fromCharCode(code).toLowerCase(),shift=event.shiftKey,ctrl=event.ctrlKey,alt=event.altKey||event.originalEvent.altKey,mapPoint=null;for(var x=0;x<ids.length;x++){if(hotkeys.triggersMap[ids[x]][type]){mapPoint=hotkeys.triggersMap[ids[x]][type];break;}}  
+  if(mapPoint){var trigger;if(!shift&&!ctrl&&!alt){trigger=mapPoint[special]||(character&&mapPoint[character]);}  
+  else{var modif='';if(alt)modif+='alt+';if(ctrl)modif+='ctrl+';if(shift)modif+='shift+';trigger=mapPoint[modif+special];if(!trigger){if(character){trigger=mapPoint[modif+character]||mapPoint[modif+hotkeys.shiftNums[character]]||(modif==='shift+'&&mapPoint[hotkeys.shiftNums[character]]);}}}  
+  if(trigger){var result=false;for(var x=0;x<trigger.length;x++){if(trigger[x].disableInInput){var elem=jQuery(event.target);if(jTarget.is("input")||jTarget.is("textarea")||jTarget.is("select")||elem.is("input")||elem.is("textarea")||elem.is("select")){return true;}}  
+  result=result||trigger[x].cb.apply(this,[event]);}  
+  return result;}}}};window.hotkeys=hotkeys;return jQuery;})(jQuery);  
+  /*****************************************************************************/  
+    
+  $(document).ready( function() {  
+    //no mouse right button  
+    $("html").rightClick(function(e){}).noContext();  
+    //no key  
+    $(document).bind('keydown', 'ctrl+a', function(){return false;}).bind('keydown', 'ctrl+c', function(){return false;});  
+    //no drag  
+    $(document).mousedown(function(){$(document).mousemove(function(e){return false;});});  
+  });
+</script>
+-->
+</head><!-- prevent IE6 flickering -->
+<script type="text/javascript">
+	try {document.execCommand('BackgroundImageCache', false, true);} catch(e) {}
+</script>
+<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=wSN4U3Mvs0YUhJEywJie&submodules=geocoder"></script>
+<body class="nav04 nav0401">
+<div id="wrap">
+    <header>
+    	<h1><a href="/index.php"><img src="/img_v02/header/logo.jpg" alt="1966ë ì°½ì ëªëêµì (êµ¬)ëªëì¹¼êµ­ì"></a></h1>
+        <nav>
+        	<ul>
+            <li id="nav01"><a href="/info/info.php"><img src="/img_v02/header/nav01.gif" alt="ëªëêµììê°" class="swapimg"></a>
+            	<ul>
+                <li><a href="/info/info.php"><img src="/img_v02/header/nav0101.gif" alt="ë¸ëë ìê°" class="swapimg"></a></li>
+                <li><a href="/info/ideology.php"><img src="/img_v02/header/nav0102.gif" alt="ê²½ìì´ë" class="swapimg"></a></li>
+                <li><a href="/info/history.php"><img src="/img_v02/header/nav0103.gif" alt="ë¸ëë ì°í" class="swapimg"></a></li>
+                <li><a href="/info/ci.php"><img src="/img_v02/header/nav0104.gif" alt="CI ìê°" class="swapimg"></a></li>
+                <li><a href="/info/world.php"><img src="/img_v02/header/nav0105.gif" alt="ì¸ê³ìì ëªëêµì" class="swapimg"></a></li>
+                <li><a href="/info/ad.php"><img src="/img_v02/header/nav0106.gif" alt="íë³´ìì" class="swapimg"></a></li>
+                </ul>
+            </li>
+            <li id="nav02"><a href="/menu/all_menu.php"><img src="/img_v02/header/nav02.gif" alt="ë©ë´ìë´" class="swapimg"></a>
+            	<ul>
+                <li><a href="/menu/all_menu.php"><img src="/img_v02/header/nav0201.gif" alt="ì ì²´ë©ë´" class="swapimg"></a></li>
+                <li><a href="/menu/menu01.php"><img src="/img_v02/header/nav0202.gif" alt="ì¹¼êµ­ì" class="swapimg"></a></li>
+                <li><a href="/menu/menu02.php"><img src="/img_v02/header/nav0203.gif" alt="ë§ë" class="swapimg"></a></li>
+                <li><a href="/menu/menu03.php"><img src="/img_v02/header/nav0204.gif" alt="ë¹ë¹êµ­ì" class="swapimg"></a></li>
+                <li><a href="/menu/menu04.php"><img src="/img_v02/header/nav0205.gif" alt="ì½©êµ­ì" class="swapimg"></a></li>
+                <li><a href="/menu/menu05.php"><img src="/img_v02/header/nav0206.gif" alt="í¬ì¥" class="swapimg"></a></li>
+                </ul>
+            </li>
+            <li id="nav03"><a href="/story/story01.php"><img src="/img_v02/header/nav03.gif" alt="ë§ìë ì´ì¼ê¸°" class="swapimg"></a>
+            	<ul>
+                <li><a href="/story/story01.php"><img src="/img_v02/header/nav0301.gif" alt="ìëìë ì ì±" class="swapimg"></a></li>
+                <li><a href="/story/story02.php"><img src="/img_v02/header/nav0302.gif" alt="ê±´ê°í ìì ì¬ë£" class="swapimg"></a></li>
+                <li><a href="/story/story03.php"><img src="/img_v02/header/nav0303.gif" alt="í¹ë³í ê¹ì¹" class="swapimg"></a></li>
+                </ul>
+            </li>
+            <li id="nav04"><a href="/restaurant/head.php"><img src="/img_v02/header/nav04.gif" alt="ë§¤ì¥ìë´" class="swapimg"></a>
+            	<ul>
+                <li><a href="/restaurant/head.php"><img src="/img_v02/header/nav0401.gif" alt="ë³¸ì " class="swapimg"></a></li>
+                <li><a href="/restaurant/chain.php"><img src="/img_v02/header/nav0402.gif" alt="ë¶ì " class="swapimg"></a></li>
+                <li><a href="/restaurant/itaewon.php"><img src="/img_v02/header/nav0403.gif" alt="ì´íìì " class="swapimg"></a></li>
+                <li><a href="/restaurant/mdstation.php"><img src="/img_v02/header/nav0404.gif" alt="ì ê´ëªëì­ì " class="swapimg"></a></li>
+                <li><a href="/restaurant/location.php"><img src="/img_v02/header/nav0405.gif" alt="ì¤ìë ê¸¸" class="swapimg"></a></li>
+                </ul>
+            </li>
+            <li id="nav05"><a href="/board/list.php"><img src="/img_v02/header/nav05.gif" alt="ììì/ì´ë²¤í¸" class="swapimg"></a>
+            	<ul>
+                <li><a href="/board/list.php"><img src="/img_v02/header/nav0501.gif" alt="ê³µì§ì¬í­" class="swapimg"></a></li>
+                <li><a href="/news/twitter.php"><img src="/img_v02/header/nav0502.gif" alt="í¸ìí° ìì" class="swapimg"></a></li>
+                <li><a href="/news/blog.php"><img src="/img_v02/header/nav0503.gif" alt="ë¸ë¡ê·¸ëë" class="swapimg"></a></li>
+                <li><a href="/board/list_event.php?sc=002"><img src="/img_v02/header/nav0504.gif" alt="ì´ë²¤í¸" class="swapimg"></a></li>
+                <li><a href="/news/proposal.php"><img src="/img_v02/header/nav0505.gif" alt="ê±´ìì¬í­" class="swapimg"></a></li>
+                <li><a href="/news/recruit.php"><img src="/img_v02/header/nav0506.gif" alt="ì±ì©ì ë³´" class="swapimg"></a></li>
+                </ul>
+            </li>
+            </ul>
+        </nav>
+        
+      <div class="top_menu">
+            <div class="sliderkit photoslider-mini">
+                <div class="sliderkit-panels">
+                    <div class="sliderkit-panel"><a href="/menu/menu01.php"><img src="/img_v02/header/header_menu01.jpg" alt="ì¹¼êµ­ì"></a></div>
+                    <div class="sliderkit-panel"><a href="/menu/menu02.php"><img src="/img_v02/header/header_menu02.jpg" alt="ë§ë"></a></div>
+                    <div class="sliderkit-panel"><a href="/menu/menu03.php"><img src="/img_v02/header/header_menu03.jpg" alt="ë¹ë¹êµ­ì"></a></div>
+                    <div class="sliderkit-panel"><a href="/menu/menu04.php"><img src="/img_v02/header/header_menu04.jpg" alt="ì½©êµ­ì"></a></div>
+                </div>
+            </div>
+        </div>
+	</header>    <section id="container">
+    	<h1 class="h1_title"><img src="/img_v02/title/t_0401.gif" alt="ë³¸ì "></h1>
+        <p class="navi">í &gt; ë§¤ì¥ ìë´ &gt; <b>ë³¸ì </b></p>
+        <section class="content">
+        	<div class="shop_pht"><img src="/img_v02/content/store01.jpg" alt=""/></div>
+			<div class="shop_info">
+            	<h1><img src="/img_v02/content/res01_t.gif" alt="ëªëêµì ë³¸ì "></h1>
+                <p><b>ìì¸ ì¤êµ¬ ëªë10ê¸¸ 29</b><br>
+              	ëªëêµì ë³¸ì ì¼ë¡ êµ­ë´ ë° í´ì¸ì ë§ì ë¶ë¤ì´ ë°©ë¬¸íê³  ììµëë¤.</p>
+                <table border="1" cellspacing="0" summary="" class="tb01">
+                <tbody>
+                <tr>
+                <th>ì íë²í¸</th>
+                <td>02-776-5348</td>
+                </tr>
+                
+                <tr>
+                <th>í©ì¤</th>
+                <td>02-776-7384</td>
+                </tr>
+                
+                <tr>
+                <th>ìììê°</th>
+                <td>AM 10:30 ~ PM 09:30 (ì¤(êµ¬ì ), ì¶ì ëªì  ë¹ì¼ë§ í´ë¬´)</td>
+                </tr>
+                
+                <tr>
+                <th>ì¢ìì</th>
+                <td>ì½ 230ì</td>
+                </tr>
+                
+                <tr>
+                <th>ì£¼ì°¨</th>
+                <td>ëì¤êµíµì´ë ì£¼ë³ ì ë£ ì£¼ì°¨ì¥ì ì´ì©í´ ì£¼ì¸ì. <a href="/restaurant/location.php"><img src="/images/button_parking.gif" alt="ì£¼ì°¨ìë´"></a></td>
+                </tr>
+                </tbody>
+                </table>
+              	<p class="btn"><a href="/restaurant/location.php"><img src="/images/btn_location.gif" alt="ì°¾ìì¤ìë ê¸¸"></a></p>
+          	</div>
+            <section class="group01">
+            	<h3><img src="/img_v02/content/res_t01.gif" alt="Store Photo"></h3>
+                <div id="sp_main" style="width:600px; float:left; margin:5px;">
+                	<img src="/images/04_01/main/img_0560.jpg" width="600" style="border:2px solid #aaa;">
+                </div>
+                <div id="sp_thumb" style="width:320px; float:left; margin-top:1px;">
+                    <ul style="width:320px;">
+                    <li style="float:left;"><img src="/images/04_01/thumb/img_0560.jpg" width="140" style="margin:3px; border:2px solid #e00;"></li>
+                    <li style="float:left;"><img src="/images/04_01/thumb/img_0565.jpg" width="140" style="margin:3px; border:2px solid #aaa;"></li>
+                    <li style="float:left;"><img src="/images/04_01/thumb/img_0568.jpg" width="140" style="margin:3px; border:2px solid #aaa;"></li>
+                    <li style="float:left;"><img src="/images/04_01/thumb/img_0576.jpg" width="140" style="margin:3px; border:2px solid #aaa;"></li>
+                    <li style="float:left;"><img src="/images/04_01/thumb/img_0589.jpg" width="140" style="margin:3px; border:2px solid #aaa;"></li>
+                    <li style="float:left;"><img src="/images/04_01/thumb/img_0597.jpg" width="140" style="margin:3px; border:2px solid #aaa;"></li>
+                    <li style="float:left;"><img src="/images/04_01/thumb/img_9467.jpg" width="140" style="margin:3px; border:2px solid #aaa;"></li>
+                    <li style="float:left;"><img src="/images/04_01/thumb/img_9468.jpg" width="140" style="margin:3px; border:2px solid #aaa;"></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="group01">
+            	<h3><img src="/img_v02/content/res_t02.gif" alt="Location"></h3>
+            	<div id="map" style="float:left;border:6px solid #e3e3e3;width:720px;text-align:center; height:600px;" ><a href="http://naver.me/F6q1qgxK" target="_blank"><img src="/images/map.gif"></a></div>
+ 		<!--naver ì§ë
+								<div id = "map" style="float:left;border:6px solid #e3e3e3;width:940px; height:600px;"></div>
+			<script>
+      var map = new naver.maps.Map('map');
+      var myaddress = 'ìì¸ ì¤êµ¬ ëªë10ê¸¸ 29';// ëë¡ëª ì£¼ìë ì§ë² ì£¼ìë§ ê°ë¥ (ê±´ë¬¼ëª ë¶ê°!!!!)
+      naver.maps.Service.geocode({address: myaddress}, function(status, response) {
+          if (status !== naver.maps.Service.Status.OK) {
+              return alert(myaddress + 'ì ê²ì ê²°ê³¼ê° ìê±°ë ê¸°í ë¤í¸ìí¬ ìë¬');
+          }
+          var result = response.result;
+          // ê²ì ê²°ê³¼ ê°¯ì: result.total
+          // ì²«ë²ì§¸ ê²°ê³¼ ê²°ê³¼ ì£¼ì: result.items[0].address
+          // ì²«ë²ì§¸ ê²ì ê²°ê³¼ ì¢í: result.items[0].point.y, result.items[0].point.x
+          var myaddr = new naver.maps.Point(result.items[0].point.x, result.items[0].point.y);
+          map.setCenter(myaddr); // ê²ìë ì¢íë¡ ì§ë ì´ë
+          // ë§ì»¤ íì
+          var marker = new naver.maps.Marker({
+            position: myaddr,
+            map: map
+          });
+          // ë§ì»¤ í´ë¦­ ì´ë²¤í¸ ì²ë¦¬
+          naver.maps.Event.addListener(marker, "click", function(e) {
+            if (infowindow.getMap()) {
+                infowindow.close();
+            } else {
+                infowindow.open(map, marker);
+            }
+          });
+          // ë§í¬ í´ë¦­ì ì¸í¬ìëì° ì¤í
+          var infowindow = new naver.maps.InfoWindow({
+              content: '<h4> [ë¤ì´ë² ê°ë°ìì¼í°]</h4><a href="https://developers.naver.com" target="_blank"><img src="https://developers.naver.com/inc/devcenter/images/nd_img.png"></a>'
+          });
+      });
+      </script>
+      naver ì§ë-->	              
+				    </section>
+            
+
+	  </section>
+    </section>
+    <footer>
+		<p class="warning">ë³¸ ì¬ì´í¸ì ëª¨ë  ë´ì© ë° ì´ë¯¸ì§ì ëí ì ìê¶ì ëªëêµìì ìì¼ë©°, ë¬´ë¨ ëì©ì ë²ì  ì²ë²ì ë°ì ì ììµëë¤.</p>
+<table><tr><td height=5></td></tr></table>
+<table border=0 align="center" width="955px" cellpadding=0 style="font:normal 11px/1.2em dotum,gulim,sans-serif;color:#494341;">
+		<tr>
+			<td nowrap width=140 rowspan=5 align=center><img src="/img_v02/footer/logo_f.gif" alt="ëªëêµì (êµ¬)ëªëì¹¼êµ­ì">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td nowrap width=110>ëªëêµì ë³¸ì </td>
+			<td nowrap width=160>- ìì¸ ì¤êµ¬ ëªë10ê¸¸ 29</td>
+			<td nowrap width=220>TEL 02-776-5348 &nbsp;&nbsp;FAX 02-776-7384</td>
+			<td nowrap width=100 rowspan=4>&nbsp;</td>
+			<td nowrap width=180 rowspan=4 valign=bottom align=center>
+	  			<table border=0 width=100% id="lang">
+  					<tr>
+  						<td style="padding-top: 5px"><img src="/img_v02/footer/lang.gif" alt="language"><img src="/img_v02/footer/lang_k.gif" alt="íêµ­ì´"><a href="/en/"><img src="/img_v02/footer/lang_u.gif" alt="English" border="0"></a><a href="/jp/"><img src="/img_v02/footer/lang_j.gif" alt="æ¥æ¬èª"></a></td>
+	  				</tr>
+	  			</table>
+			</td>
+		</tr>
+		<tr>
+				<td nowrap >ëªëêµì ë¶ì </td>
+				<td nowrap >- ìì¸ ì¤êµ¬ ëªë10ê¸¸ 8</td>
+				<td nowrap >TEL 02-776-3424 &nbsp;&nbsp;FAX 02-776-7384</td>
+		</tr>
+		<tr>
+				<td nowrap >ëªëêµì ì´íìì </td>
+				<td nowrap >- ìì¸ ì©ì°êµ¬ ë¹ì¬íëë¡ 136</td>
+				<td nowrap >TEL 02-776-7300 &nbsp;&nbsp;FAX 02-773-3384</td>
+		</tr>
+		<tr>
+				<td nowrap >ëªëêµì ì ê´ëªëì­ì </td>
+				<td nowrap >- ìì¸ ì¤êµ¬ í´ê³ë¡ 129</td>
+				<td nowrap >TEL 02-776-5559 &nbsp;&nbsp;FAX 02-776-7384</td>
+		</tr>
+		<tr>
+				<td nowrap colspan="4" height=18 valign="bottom">COPYRIGHT 2012 Myeong Dong Kyoja. ALL RIGHT RESERVED</td>
+				<td nowrap valign=bottom align=right></td>
+		</tr>    				  				
+</table>
+<table><tr><td height=5></td></tr></table>
+</footer></div>
+</body>
+</html>
